@@ -1,0 +1,85 @@
+{
+  "version": "valid",
+  "data": [
+    {
+      "id": "b9c136c1e1d19649caabdeb4",
+      "question": "What is patient 10021487's monthly average bilirubin, direct levels since 05/2100?"
+    },
+    {
+      "id": "b389e224ed07b11a553f0329",
+      "question": "What was the name of the diagnosis that patient 10001217 received first in 2100?"
+    },
+    {
+      "id": "0845eda9197d9666e0b3a017",
+      "question": "Is the value of patient 10021118's arterial blood pressure diastolic last measured on the first ICU visit greater than the second to last value measured on the first ICU visit?"
+    },
+    {
+      "id": "423e62850dbf99ad88d4c834",
+      "question": "What was the prescription drug that patient 10004235 was prescribed for within the same hospital visit after receiving laparoscopic robotic assisted procedure since 03/2100?"
+    },
+    {
+      "id": "ad08e146a6e37e3a138c8c78",
+      "question": "During their first hospital visit, what was the first drug patient 10020944 was prescribed via the iv route?"
+    },
+    {
+      "id": "64402ff0fab0f41d6157a79d",
+      "question": "When was patient 10016150 last admitted to the hospital in 2100?"
+    },
+    {
+      "id": "b1f43697c74666c4701854b3",
+      "question": "What number of hours have elapsed since patient 10018081 was admitted to the ICU?"
+    },
+    {
+      "id": "9cd37fc842ad70310d54ee58",
+      "question": "Can you tell me the first measured weight of patient 10027602 since 5 months ago?"
+    },
+    {
+      "id": "0e38c978a69e475449c84fee",
+      "question": "What's the gender of patient 10037975?"
+    },
+    {
+      "id": "2766c75e65819b7cf9c0fba2",
+      "question": "Tell me the name of the output patient 10020944 had last since 03/04/2100?"
+    },
+    {
+      "id": "f7e273153edfeb72b98bd9c7",
+      "question": "When did patient 10009628 receive the last lab test, in 10/this year?"
+    },
+    {
+      "id": "49096da9fc4db23df0c9ca94",
+      "question": "Is the value of the respiratory rate of patient 10038999 last measured on the last ICU visit greater than that second to last measured on the last ICU visit?"
+    },
+    {
+      "id": "f92a9715af7d181a656d4998",
+      "question": "Calculate the number of patients who were discharged from hospital during the last year."
+    },
+    {
+      "id": "61158e9ccd8015f7898cb6e8",
+      "question": "What were the four most performed procedures for patients aged 20s?"
+    },
+    {
+      "id": "fc9243a5cde088d80aaae29a",
+      "question": "How many hours have passed since patient 10021487's first asparate aminotransferase (ast) lab test on their current hospital visit?"
+    },
+    {
+      "id": "23dd8572482a3b9ef2437c37",
+      "question": "How many days have passed since patient 10018081 first received a lab test during this hospital visit for po2?"
+    },
+    {
+      "id": "b3baba0d3d4a30996c8d7040",
+      "question": "Was any glucose gel prescribed to patient 10020944 in 03/2100?"
+    },
+    {
+      "id": "d081d7e2db7e69a70b388b51",
+      "question": "Did patient 10009035 go through any type of procedure during their first hospital visit?"
+    },
+    {
+      "id": "a49efc1cdf3ebbe617aa7d26",
+      "question": "What microbiology tests did patient 10008454 have last in 12/this year?"
+    },
+    {
+      "id": "f184df103c661869f651b4dd",
+      "question": "How was patient 10006053 first admitted to the hospital since 2100 in terms of admission type?"
+    }
+  ]
+}

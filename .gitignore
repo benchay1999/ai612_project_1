@@ -2,10 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+noshare/
 # C extensions
 *.so
-
+sample_submission_chatgpt_api_key.json
 # Distribution / packaging
 .Python
 build/
