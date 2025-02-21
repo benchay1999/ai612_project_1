@@ -13,7 +13,8 @@ with open("results/prediction.json", "r") as f:
 scorer = Scorer(
     data=data,
     predictions=predictions,
-    gold_labels=gold_labels
+    gold_labels=gold_labels,
+    score_dir="results"
 )
 
 print(scorer.get_scores())
