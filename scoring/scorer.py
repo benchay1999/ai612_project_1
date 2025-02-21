@@ -1,6 +1,6 @@
 import json, os
 import sqlite3
-from utils import SQLEvaluator
+from scoring.utils import SQLEvaluator
 from tqdm import tqdm
 class Scorer:
     def __init__(
