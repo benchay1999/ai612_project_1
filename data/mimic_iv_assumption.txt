@@ -1,0 +1,67 @@
+- Use SQLite for SQL query generation.
+- Use DENSE_RANK() when asked for ranking results, but retrieve only the relevant items, excluding their counts or ranks. When the question does not explicitly mention ranking, don't use DENSE_RANK().
+- For the top N results, return only the relevant items, excluding their counts.
+- Use DISTINCT in queries asking about the cost of events, drug routes, or counting patients or hospital/ICU visits.
+- When calculating the total cost, sum the patient’s diagnoses, procedures, lab events, and prescription costs within a single hospital admission only.
+- Use DISTINCT to retrieve the cost of a single event (diagnosis, procedure, lab event, or prescription).
+- For cost-related questions, use cost.event_type to specify the event type ('procedures_icd', 'labevents', 'prescriptions', 'diagnoses_icd') when retrieving costs for procedures, lab events, prescriptions, or diagnoses, respectively.
+- Treat questions that start with "is it possible," "can you confirm," or "verify" as true/false questions.
+- Calculate a patient's age once per hospital admission. The age remains constant even if the hospital stay exceeds one year.
+- Use inputevents for input-related values and outputevents for output-related values.
+- Values are table-specific (e.g., "propofol" in inputevents will not appear in prescriptions).
+- When asked about the careunit, refer to the careunit information in the transfer table.
+- When asked to retrieve procedures, diagnoses, or lab tests, return their names or labels of their medical codes (i.e., procedure: d_icd_procedures.long_title, diagnosis: d_icd_diagnoses.long_title, lab test: d_labitems.label).
+- When a question involves the time of diagnosis in relation to other types of events, use the first diagnosis time for each patient.
+- When calculating the N-year survival/mortality rate:
+  - A patient is considered deceased if a death record exists between their first diagnosis and N years later.
+  - If no death record exists within N years, or if the death occurs afterward, the patient is considered to have survived.
+  - Express the result as a percentage or proportion (values between 0 and 1).
+  - "3 months" refers to 365/4 days, and "6 months" refers to 365/2 days when calculating a duration.
+- Time-related SQL operations:
+  - Use the following information for the current time instead of SQLite's native function.
+  - Use '2100-12-31 23:59:00' instead of 'now', '2100-12-31' instead of 'today', '2100-12' instead of 'this month', and '2100' instead of 'this year'.
+    - Examples:
+      - prescriptions today: datetime(prescriptions.starttime,'start of day') = datetime('2100-12-31 23:59:00','start of day','-0 day')
+      - prescriptions yesterday: datetime(prescriptions.starttime,'start of day') = datetime('2100-12-31 23:59:00','start of day','-1 day')
+  - "this month/02" and "last month/02" refer to the 2nd day of the current and previous month, respectively.
+    - Examples:
+      - outputevents on this month/02: datetime(outputevents.charttime,'start of month') = datetime('2100-12-31 23:59:00','start of month','-0 month') AND strftime('%d',outputevents.charttime) = '02'
+      - outputevents on last month/02: datetime(outputevents.charttime,'start of month') = datetime('2100-12-31 23:59:00','start of month','-1 month') AND strftime('%d',outputevents.charttime) = '02'
+  - "11/this year" refers to November of this year; "11/2100" refers to November 2100; "12/31/this year" refers to December 31st of this year.
+    - Examples:
+      - microbiologyevents in 11/this year: datetime(microbiologyevents.charttime,'start of year') = datetime('2100-12-31 23:59:00','start of year','-0 year') AND strftime('%m',microbiologyevents.charttime) = '11'
+      - microbiologyevents in 11/2100: strftime('%Y-%m',microbiologyevents.charttime) = '2100-11'
+      - microbiologyevents on 06/15/this year: datetime(outputevents.charttime,'start of year') = datetime('2100-12-31 23:59:00','start of year','-0 year') AND strftime('%m-%d',outputevents.charttime) = '06-15'
+  - When a question involves a time window (e.g., "since"):
+    - Example:
+      - outputevents since 1 year ago: datetime(outputevents.charttime) >= datetime('2100-12-31 23:59:00','-1 year')
+  - Time Comparison for Two Different Events:
+    - Examples:
+      - Same Day: datetime(T1.charttime,'start of day') = datetime(T2.starttime,'start of day')
+      - Same Month: datetime(T1.charttime,'start of month') = datetime(T2.starttime,'start of month')
+      - Same Hospital Admission: T1.hadm_id = T2.hadm_id
+  - A "current hospital admission/visit/encounter" refers to records where the hospital discharge time does not exist (indicating a current patient). A "last hospital visit" is only if the hospital discharge time is present; the first hospital visit is simply the earliest recorded visit. This rule also applies to ICU admissions and careunit transfers.
+    - Examples:
+      - current hospital admission: admissions.dischtime IS NULL
+      - last hospital admission: admissions.dischtime IS NOT NULL ORDER BY admissions.admittime DESC LIMIT 1
+      - first hospital admission: admissions.dischtime IS NOT NULL ORDER BY admissions.admittime ASC LIMIT 1
+- Value Mapping Assumptions (Case-Sensitive):
+  - Use "temperature celsius" for body temperature.
+  - Use "o2 saturation pulseoxymetry" for SaO2.
+  - Use "heart rate" for heart rate.
+  - Use "respiratory rate" for respiration rate.
+  - Use "arterial blood pressure systolic" for systolic blood pressure.
+  - Use "arterial blood pressure diastolic" for diastolic blood pressure.
+  - Use "arterial blood pressure mean" for mean blood pressure.
+  - Use "daily weight" for weight.
+  - Use "height (cm)" for height.
+  - Use "m" for male and "f" for female.
+  - Except for the above, use the value as it is.
+- Vital-related events are stored in chartevents, not in inputevents or outputevents. Normal ranges for vital signals are as follows:
+  - body temperature: BETWEEN 35.5 AND 38.1
+  - SaO2: BETWEEN 95.0 AND 100.0
+  - heart rate: BETWEEN 60.0 AND 100.0
+  - respiration rate: BETWEEN 12.0 AND 18.0
+  - systolic blood pressure: BETWEEN 90.0 AND 120.0
+  - diastolic blood pressure: BETWEEN 60.0 AND 90.0
+  - mean blood pressure: BETWEEN 60.0 AND 110.0

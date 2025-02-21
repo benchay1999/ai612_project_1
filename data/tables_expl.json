@@ -1,0 +1,1909 @@
+[
+	{
+		"column_names": [
+			[
+				-1,
+				"*"
+			],
+			[
+				0,
+				"unique identifier for each row."
+			],
+			[
+				0,
+				"unique identifier for an individual patient."
+			],
+			[
+				0,
+				"gender of the patient."
+			],
+			[
+				0,
+				"date of birth of the patient."
+			],
+			[
+				0,
+				"date of death of the patient."
+			],
+			[
+				1,
+				"unique identifier for each row."
+			],
+			[
+				1,
+				"unique identifier for an individual patient."
+			],
+			[
+				1,
+				"unique identifier for an individual hospital stay of an individual patient."
+			],
+			[
+				1,
+				"provides the date and time the patient was admitted to the hospital."
+			],
+			[
+				1,
+				"provides the date and time the patient was discharged from the hospital."
+			],
+			[
+				1,
+				"the urgency of the admission."
+			],
+			[
+				1,
+				"provides information about the location of the patient prior to arriving at the hospital."
+			],
+			[
+				1,
+				"the disposition of the patient after they are discharged from the hospital."
+			],
+			[
+				1,
+				"provides information about the patient's insurance during hospitalization."
+			],
+			[
+				1,
+				"information about the patient's language."
+			],
+			[
+				1,
+				"information about the patient's marital status during hospitalization."
+			],
+			[
+				1,
+				"information about the patient's age during hospitalization."
+			],
+			[
+				2,
+				"unique identifier for each row."
+			],
+			[
+				2,
+				"international Coding Definitions (ICD) code with versions distinguishable by the prefix."
+			],
+			[
+				2,
+				"the description or meaning of the ICD code."
+			],
+			[
+				3,
+				"unique identifier for each row."
+			],
+			[
+				3,
+				"international Coding Definitions (ICD) code with two versions differentiated by the prefix."
+			],
+			[
+				3,
+				"brief definition of the procedure code."
+			],
+			[
+				4,
+				"unique identifier for each row."
+			],
+			[
+				4,
+				"unique identifier for a laboratory concept."
+			],
+			[
+				4,
+				"describes the laboratory concept represented by the itemid."
+			],
+			[
+				5,
+				"unique identifier for each row."
+			],
+			[
+				5,
+				"unique identifier for each row."
+			],
+			[
+				5,
+				"describes the concept represented by the itemid."
+			],
+			[
+				5,
+				"common abbreviation for the label."
+			],
+			[
+				5,
+				"the table name to which the data links."
+			],
+			[
+				6,
+				"unique identifier for each row."
+			],
+			[
+				6,
+				"unique identifier for an individual patient."
+			],
+			[
+				6,
+				"unique identifier for an individual hospital stay of an individual patient."
+			],
+			[
+				6,
+				"international Coding Definitions (ICD) code."
+			],
+			[
+				6,
+				"time at which the icd_code was charted."
+			],
+			[
+				7,
+				"unique identifier for each row."
+			],
+			[
+				7,
+				"unique identifier for an individual patient."
+			],
+			[
+				7,
+				"unique identifier for an individual hospital stay of an individual patient."
+			],
+			[
+				7,
+				"international Coding Definitions (ICD) code."
+			],
+			[
+				7,
+				"time of the procedure."
+			],
+			[
+				8,
+				"unique identifier for each row."
+			],
+			[
+				8,
+				"unique identifier for an individual patient."
+			],
+			[
+				8,
+				"unique identifier for an individual hospital stay of an individual patient."
+			],
+			[
+				8,
+				"uniquely denotes laboratory concepts."
+			],
+			[
+				8,
+				"time at which the lab measurement was charted."
+			],
+			[
+				8,
+				"result of the lab measurement."
+			],
+			[
+				8,
+				"unit of measurement for the lab concept."
+			],
+			[
+				9,
+				"unique identifier for each row."
+			],
+			[
+				9,
+				"unique identifier for an individual patient."
+			],
+			[
+				9,
+				"unique identifier for an individual hospital stay of an individual patient."
+			],
+			[
+				9,
+				"prescribed start time for the medication."
+			],
+			[
+				9,
+				"prescribed stop time for the medication."
+			],
+			[
+				9,
+				"description of the medication administered."
+			],
+			[
+				9,
+				"prescribed dose for the patient."
+			],
+			[
+				9,
+				"unit of measurement for the dose."
+			],
+			[
+				9,
+				"route of administration for the medication."
+			],
+			[
+				10,
+				"unique identifier for each row."
+			],
+			[
+				10,
+				"unique identifier for an individual patient."
+			],
+			[
+				10,
+				"unique identifier for an individual hospital stay of an individual patient."
+			],
+			[
+				10,
+				"refers to the table in the database to which the event belongs."
+			],
+			[
+				10,
+				"the row_id of the event in the table."
+			],
+			[
+				10,
+				"the charttime of the event that is charged."
+			],
+			[
+				10,
+				"the cost of the event."
+			],
+			[
+				11,
+				"unique identifier for each row."
+			],
+			[
+				11,
+				"unique identifier for an individual patient."
+			],
+			[
+				11,
+				"unique identifier for an individual hospital stay of an individual patient."
+			],
+			[
+				11,
+				"unique to a patient ward stay."
+			],
+			[
+				11,
+				"identifier for a single measurement type in the database."
+			],
+			[
+				11,
+				"records the time at which an observation was made."
+			],
+			[
+				11,
+				"the value of the itemid, NULL if non-numeric."
+			],
+			[
+				11,
+				"the unit of measurement for the value."
+			],
+			[
+				12,
+				"unique identifier for each row."
+			],
+			[
+				12,
+				"unique identifier for an individual patient."
+			],
+			[
+				12,
+				"unique identifier for an individual hospital stay of an individual patient."
+			],
+			[
+				12,
+				"unique to a patient ward stay."
+			],
+			[
+				12,
+				"start time of an input/output event."
+			],
+			[
+				12,
+				"identifier for a measurement type in the database."
+			],
+			[
+				12,
+				"total amount of a drug or substance administered."
+			],
+			[
+				12,
+				"unit of measurement for the total amount."
+			],
+			[
+				13,
+				"unique identifier for each row."
+			],
+			[
+				13,
+				"unique identifier for an individual patient."
+			],
+			[
+				13,
+				"unique identifier for an individual hospital stay of an individual patient."
+			],
+			[
+				13,
+				"unique to a patient ward stay."
+			],
+			[
+				13,
+				"time of an output event."
+			],
+			[
+				13,
+				"identifier for a measurement type."
+			],
+			[
+				13,
+				"amount of a substance at the charttime."
+			],
+			[
+				13,
+				"unit of measurement for the value."
+			],
+			[
+				14,
+				"unique identifier for each row."
+			],
+			[
+				14,
+				"unique identifier for an individual patient."
+			],
+			[
+				14,
+				"unique identifier for an individual hospital stay of an individual patient."
+			],
+			[
+				14,
+				"records the time at which an observation was made."
+			],
+			[
+				14,
+				"the specimen tested for bacterial growth."
+			],
+			[
+				14,
+				"the test performed on the given specimen."
+			],
+			[
+				14,
+				"the organism, if any, that grew during the test."
+			],
+			[
+				15,
+				"unique identifier for each row."
+			],
+			[
+				15,
+				"unique identifier for an individual patient."
+			],
+			[
+				15,
+				"unique identifier for an individual hospital stay of an individual patient."
+			],
+			[
+				15,
+				"unique to a patient ward stay."
+			],
+			[
+				15,
+				"the first ICU type in which the patient was cared for."
+			],
+			[
+				15,
+				"the last ICU type in which the patient was cared for."
+			],
+			[
+				15,
+				"date and time the patient was transferred into the ICU."
+			],
+			[
+				15,
+				"date and time the patient was transferred out of the ICU."
+			],
+			[
+				16,
+				"unique identifier for each row."
+			],
+			[
+				16,
+				"unique identifier for an individual patient."
+			],
+			[
+				16,
+				"unique identifier for an individual hospital stay of an individual patient."
+			],
+			[
+				16,
+				"unique identifier for a patient's physical location."
+			],
+			[
+				16,
+				"describes the transfer event."
+			],
+			[
+				16,
+				"type of unit or ward where the patient is located."
+			],
+			[
+				16,
+				"date and time the patient was transferred into the care unit."
+			],
+			[
+				16,
+				"date and time the patient was transferred out of the location."
+			]
+		],
+		"column_names_original": [
+			[
+				-1,
+				"*"
+			],
+			[
+				0,
+				"row_id"
+			],
+			[
+				0,
+				"subject_id"
+			],
+			[
+				0,
+				"gender"
+			],
+			[
+				0,
+				"dob"
+			],
+			[
+				0,
+				"dod"
+			],
+			[
+				1,
+				"row_id"
+			],
+			[
+				1,
+				"subject_id"
+			],
+			[
+				1,
+				"hadm_id"
+			],
+			[
+				1,
+				"admittime"
+			],
+			[
+				1,
+				"dischtime"
+			],
+			[
+				1,
+				"admission_type"
+			],
+			[
+				1,
+				"admission_location"
+			],
+			[
+				1,
+				"discharge_location"
+			],
+			[
+				1,
+				"insurance"
+			],
+			[
+				1,
+				"language"
+			],
+			[
+				1,
+				"marital_status"
+			],
+			[
+				1,
+				"age"
+			],
+			[
+				2,
+				"row_id"
+			],
+			[
+				2,
+				"icd_code"
+			],
+			[
+				2,
+				"long_title"
+			],
+			[
+				3,
+				"row_id"
+			],
+			[
+				3,
+				"icd_code"
+			],
+			[
+				3,
+				"long_title"
+			],
+			[
+				4,
+				"row_id"
+			],
+			[
+				4,
+				"itemid"
+			],
+			[
+				4,
+				"label"
+			],
+			[
+				5,
+				"row_id"
+			],
+			[
+				5,
+				"itemid"
+			],
+			[
+				5,
+				"label"
+			],
+			[
+				5,
+				"abbreviation"
+			],
+			[
+				5,
+				"linksto"
+			],
+			[
+				6,
+				"row_id"
+			],
+			[
+				6,
+				"subject_id"
+			],
+			[
+				6,
+				"hadm_id"
+			],
+			[
+				6,
+				"icd_code"
+			],
+			[
+				6,
+				"charttime"
+			],
+			[
+				7,
+				"row_id"
+			],
+			[
+				7,
+				"subject_id"
+			],
+			[
+				7,
+				"hadm_id"
+			],
+			[
+				7,
+				"icd_code"
+			],
+			[
+				7,
+				"charttime"
+			],
+			[
+				8,
+				"row_id"
+			],
+			[
+				8,
+				"subject_id"
+			],
+			[
+				8,
+				"hadm_id"
+			],
+			[
+				8,
+				"itemid"
+			],
+			[
+				8,
+				"charttime"
+			],
+			[
+				8,
+				"valuenum"
+			],
+			[
+				8,
+				"valueuom"
+			],
+			[
+				9,
+				"row_id"
+			],
+			[
+				9,
+				"subject_id"
+			],
+			[
+				9,
+				"hadm_id"
+			],
+			[
+				9,
+				"starttime"
+			],
+			[
+				9,
+				"stoptime"
+			],
+			[
+				9,
+				"drug"
+			],
+			[
+				9,
+				"dose_val_rx"
+			],
+			[
+				9,
+				"dose_unit_rx"
+			],
+			[
+				9,
+				"route"
+			],
+			[
+				10,
+				"row_id"
+			],
+			[
+				10,
+				"subject_id"
+			],
+			[
+				10,
+				"hadm_id"
+			],
+			[
+				10,
+				"event_type"
+			],
+			[
+				10,
+				"event_id"
+			],
+			[
+				10,
+				"chargetime"
+			],
+			[
+				10,
+				"cost"
+			],
+			[
+				11,
+				"row_id"
+			],
+			[
+				11,
+				"subject_id"
+			],
+			[
+				11,
+				"hadm_id"
+			],
+			[
+				11,
+				"stay_id"
+			],
+			[
+				11,
+				"itemid"
+			],
+			[
+				11,
+				"charttime"
+			],
+			[
+				11,
+				"valuenum"
+			],
+			[
+				11,
+				"valueuom"
+			],
+			[
+				12,
+				"row_id"
+			],
+			[
+				12,
+				"subject_id"
+			],
+			[
+				12,
+				"hadm_id"
+			],
+			[
+				12,
+				"stay_id"
+			],
+			[
+				12,
+				"starttime"
+			],
+			[
+				12,
+				"itemid"
+			],
+			[
+				12,
+				"totalamount"
+			],
+			[
+				12,
+				"totalamountuom"
+			],
+			[
+				13,
+				"row_id"
+			],
+			[
+				13,
+				"subject_id"
+			],
+			[
+				13,
+				"hadm_id"
+			],
+			[
+				13,
+				"stay_id"
+			],
+			[
+				13,
+				"charttime"
+			],
+			[
+				13,
+				"itemid"
+			],
+			[
+				13,
+				"value"
+			],
+			[
+				13,
+				"valueuom"
+			],
+			[
+				14,
+				"row_id"
+			],
+			[
+				14,
+				"subject_id"
+			],
+			[
+				14,
+				"hadm_id"
+			],
+			[
+				14,
+				"charttime"
+			],
+			[
+				14,
+				"spec_type_desc"
+			],
+			[
+				14,
+				"test_name"
+			],
+			[
+				14,
+				"org_name"
+			],
+			[
+				15,
+				"row_id"
+			],
+			[
+				15,
+				"subject_id"
+			],
+			[
+				15,
+				"hadm_id"
+			],
+			[
+				15,
+				"stay_id"
+			],
+			[
+				15,
+				"first_careunit"
+			],
+			[
+				15,
+				"last_careunit"
+			],
+			[
+				15,
+				"intime"
+			],
+			[
+				15,
+				"outtime"
+			],
+			[
+				16,
+				"row_id"
+			],
+			[
+				16,
+				"subject_id"
+			],
+			[
+				16,
+				"hadm_id"
+			],
+			[
+				16,
+				"transfer_id"
+			],
+			[
+				16,
+				"eventtype"
+			],
+			[
+				16,
+				"careunit"
+			],
+			[
+				16,
+				"intime"
+			],
+			[
+				16,
+				"outtime"
+			]
+		],
+		"column_types": [
+			"text",
+			"number",
+			"number",
+			"text",
+			"time",
+			"time",
+			"number",
+			"number",
+			"number",
+			"time",
+			"time",
+			"text",
+			"text",
+			"text",
+			"text",
+			"text",
+			"text",
+			"number",
+			"number",
+			"text",
+			"text",
+			"number",
+			"text",
+			"text",
+			"number",
+			"number",
+			"text",
+			"number",
+			"number",
+			"text",
+			"text",
+			"text",
+			"number",
+			"number",
+			"number",
+			"text",
+			"time",
+			"number",
+			"number",
+			"number",
+			"text",
+			"time",
+			"number",
+			"number",
+			"number",
+			"number",
+			"time",
+			"number",
+			"text",
+			"number",
+			"number",
+			"number",
+			"time",
+			"time",
+			"text",
+			"text",
+			"text",
+			"text",
+			"number",
+			"number",
+			"number",
+			"text",
+			"number",
+			"time",
+			"number",
+			"number",
+			"number",
+			"number",
+			"number",
+			"number",
+			"time",
+			"number",
+			"text",
+			"number",
+			"number",
+			"number",
+			"number",
+			"time",
+			"number",
+			"number",
+			"text",
+			"number",
+			"number",
+			"number",
+			"number",
+			"time",
+			"number",
+			"number",
+			"text",
+			"number",
+			"number",
+			"number",
+			"time",
+			"text",
+			"text",
+			"text",
+			"number",
+			"number",
+			"number",
+			"number",
+			"text",
+			"text",
+			"time",
+			"time",
+			"number",
+			"number",
+			"number",
+			"number",
+			"text",
+			"text",
+			"time",
+			"time"
+		],
+		"db_id": "mimic_iv",
+		"foreign_keys": [
+			[
+				7,
+				2
+			],
+			[
+				34,
+				8
+			],
+			[
+				35,
+				19
+			],
+			[
+				39,
+				8
+			],
+			[
+				40,
+				22
+			],
+			[
+				44,
+				8
+			],
+			[
+				45,
+				25
+			],
+			[
+				51,
+				8
+			],
+			[
+				60,
+				8
+			],
+			[
+				62,
+				32
+			],
+			[
+				62,
+				37
+			],
+			[
+				62,
+				42
+			],
+			[
+				62,
+				49
+			],
+			[
+				67,
+				8
+			],
+			[
+				68,
+				99
+			],
+			[
+				69,
+				28
+			],
+			[
+				75,
+				8
+			],
+			[
+				76,
+				99
+			],
+			[
+				78,
+				28
+			],
+			[
+				83,
+				8
+			],
+			[
+				84,
+				99
+			],
+			[
+				86,
+				28
+			],
+			[
+				91,
+				8
+			],
+			[
+				98,
+				8
+			],
+			[
+				106,
+				8
+			]
+		],
+		"primary_keys": [
+			1,
+			6,
+			18,
+			21,
+			24,
+			27,
+			32,
+			37,
+			42,
+			49,
+			58,
+			65,
+			73,
+			81,
+			89,
+			96,
+			104
+		],
+		"table_names": [
+			"patients",
+			"admissions",
+			"d icd diagnoses",
+			"d icd procedures",
+			"d labitems",
+			"d items",
+			"diagnoses icd",
+			"procedures icd",
+			"labevents",
+			"prescriptions",
+			"cost",
+			"chartevents",
+			"inputevents",
+			"outputevents",
+			"microbiologyevents",
+			"icustays",
+			"transfers"
+		],
+		"table_names_original": [
+			"patients",
+			"admissions",
+			"d_icd_diagnoses",
+			"d_icd_procedures",
+			"d_labitems",
+			"d_items",
+			"diagnoses_icd",
+			"procedures_icd",
+			"labevents",
+			"prescriptions",
+			"cost",
+			"chartevents",
+			"inputevents",
+			"outputevents",
+			"microbiologyevents",
+			"icustays",
+			"transfers"
+		]
+	},
+	{
+		"column_names": [
+			[
+				-1,
+				"*"
+			],
+			[
+				0,
+				"patient identifier."
+			],
+			[
+				0,
+				"hospital stay identifier."
+			],
+			[
+				0,
+				"unit stay identifier."
+			],
+			[
+				0,
+				"patient's gender."
+			],
+			[
+				0,
+				"patient's age at the time of admission."
+			],
+			[
+				0,
+				"patient's reported ethnicity."
+			],
+			[
+				0,
+				"hospital identifier."
+			],
+			[
+				0,
+				"ward identifier."
+			],
+			[
+				0,
+				"patient's height recorded at admission."
+			],
+			[
+				0,
+				"patient's weight recorded at admission."
+			],
+			[
+				0,
+				"patient's weight recorded at discharge."
+			],
+			[
+				0,
+				"timestamp when the patient was admitted to the hospital."
+			],
+			[
+				0,
+				"source of hospital admission."
+			],
+			[
+				0,
+				"timestamp when the patient was admitted to the hospital unit."
+			],
+			[
+				0,
+				"timestamp when the patient was discharged from the hospital unit."
+			],
+			[
+				0,
+				"timestamp when the patient was discharged from the hospital."
+			],
+			[
+				0,
+				"status of discharge."
+			],
+			[
+				1,
+				"diagnosis identifier."
+			],
+			[
+				1,
+				"unit stay identifier."
+			],
+			[
+				1,
+				"name of the diagnosis."
+			],
+			[
+				1,
+				"timestamp marking when the diagnosis was recorded."
+			],
+			[
+				1,
+				"icd-9 code for the diagnosis."
+			],
+			[
+				2,
+				"identifier for each record in the treatment table."
+			],
+			[
+				2,
+				"unit stay identifier."
+			],
+			[
+				2,
+				"name of the treatment administered."
+			],
+			[
+				2,
+				"timestamp when the treatment was recorded."
+			],
+			[
+				3,
+				"identifier for each record in the lab table."
+			],
+			[
+				3,
+				"unit stay identifier."
+			],
+			[
+				3,
+				"name of the lab test performed."
+			],
+			[
+				3,
+				"result value from the lab test."
+			],
+			[
+				3,
+				"timestamp when the lab result was recorded."
+			],
+			[
+				4,
+				"identifier for each record in the medication table."
+			],
+			[
+				4,
+				"unit stay identifier."
+			],
+			[
+				4,
+				"name of the drug administered."
+			],
+			[
+				4,
+				"dosage amount of the administered medication."
+			],
+			[
+				4,
+				"route of administration for the medication."
+			],
+			[
+				4,
+				"timestamp when the medication administration began."
+			],
+			[
+				4,
+				"timestamp when the medication administration ended."
+			],
+			[
+				5,
+				"identifier for each record in the cost table."
+			],
+			[
+				5,
+				"identifier for the patient's overall hospital stay within the health system."
+			],
+			[
+				5,
+				"identifier for the patient's stay in a specific hospital unit."
+			],
+			[
+				5,
+				"table name which the cost is linked to (e.g., 'diagnosis', 'treatment', 'lab', 'medication')."
+			],
+			[
+				5,
+				"identifier that links to a specific event in the corresponding table."
+			],
+			[
+				5,
+				"timestamp when the cost was charged."
+			],
+			[
+				5,
+				"cost associated with the event."
+			],
+			[
+				6,
+				"identifier for each record in the allergy table."
+			],
+			[
+				6,
+				"unit stay identifier."
+			],
+			[
+				6,
+				"name of the drug related to the allergy (if applicable)."
+			],
+			[
+				6,
+				"name or description of the allergy."
+			],
+			[
+				6,
+				"timestamp when the allergy was recorded."
+			],
+			[
+				7,
+				"identifier for each record in the intakeoutput table."
+			],
+			[
+				7,
+				"unit stay identifier."
+			],
+			[
+				7,
+				"path or location indicator within the intake/output data structure."
+			],
+			[
+				7,
+				"label describing the intake or output measurement."
+			],
+			[
+				7,
+				"numeric value representing the intake or output measurement."
+			],
+			[
+				7,
+				"timestamp when the intake/output measurement was recorded."
+			],
+			[
+				8,
+				"identifier for each record in the microlab table."
+			],
+			[
+				8,
+				"unit stay identifier."
+			],
+			[
+				8,
+				"site name from where the culture was taken."
+			],
+			[
+				8,
+				"organism found."
+			],
+			[
+				8,
+				"timestamp when the culture was taken."
+			],
+			[
+				9,
+				"identifier for each record in the vitalperiodic table."
+			],
+			[
+				9,
+				"stay identifier."
+			],
+			[
+				9,
+				"temperature."
+			],
+			[
+				9,
+				"oxygen saturation."
+			],
+			[
+				9,
+				"heart rate."
+			],
+			[
+				9,
+				"respiration rate."
+			],
+			[
+				9,
+				"systolic blood pressure."
+			],
+			[
+				9,
+				"diastolic blood pressure."
+			],
+			[
+				9,
+				"mean arterial pressure."
+			],
+			[
+				9,
+				"timestamp when the vital periodic measurement was recorded."
+			]
+		],
+		"column_names_original": [
+			[
+				-1,
+				"*"
+			],
+			[
+				0,
+				"uniquepid"
+			],
+			[
+				0,
+				"patienthealthsystemstayid"
+			],
+			[
+				0,
+				"patientunitstayid"
+			],
+			[
+				0,
+				"gender"
+			],
+			[
+				0,
+				"age"
+			],
+			[
+				0,
+				"ethnicity"
+			],
+			[
+				0,
+				"hospitalid"
+			],
+			[
+				0,
+				"wardid"
+			],
+			[
+				0,
+				"admissionheight"
+			],
+			[
+				0,
+				"admissionweight"
+			],
+			[
+				0,
+				"dischargeweight"
+			],
+			[
+				0,
+				"hospitaladmittime"
+			],
+			[
+				0,
+				"hospitaladmitsource"
+			],
+			[
+				0,
+				"unitadmittime"
+			],
+			[
+				0,
+				"unitdischargetime"
+			],
+			[
+				0,
+				"hospitaldischargetime"
+			],
+			[
+				0,
+				"hospitaldischargestatus"
+			],
+			[
+				1,
+				"diagnosisid"
+			],
+			[
+				1,
+				"patientunitstayid"
+			],
+			[
+				1,
+				"diagnosisname"
+			],
+			[
+				1,
+				"diagnosistime"
+			],
+			[
+				1,
+				"icd9code"
+			],
+			[
+				2,
+				"treatmentid"
+			],
+			[
+				2,
+				"patientunitstayid"
+			],
+			[
+				2,
+				"treatmentname"
+			],
+			[
+				2,
+				"treatmenttime"
+			],
+			[
+				3,
+				"labid"
+			],
+			[
+				3,
+				"patientunitstayid"
+			],
+			[
+				3,
+				"labname"
+			],
+			[
+				3,
+				"labresult"
+			],
+			[
+				3,
+				"labresulttime"
+			],
+			[
+				4,
+				"medicationid"
+			],
+			[
+				4,
+				"patientunitstayid"
+			],
+			[
+				4,
+				"drugname"
+			],
+			[
+				4,
+				"dosage"
+			],
+			[
+				4,
+				"routeadmin"
+			],
+			[
+				4,
+				"drugstarttime"
+			],
+			[
+				4,
+				"drugstoptime"
+			],
+			[
+				5,
+				"costid"
+			],
+			[
+				5,
+				"patienthealthsystemstayid"
+			],
+			[
+				5,
+				"patientunitstayid"
+			],
+			[
+				5,
+				"eventtype"
+			],
+			[
+				5,
+				"eventid"
+			],
+			[
+				5,
+				"chargetime"
+			],
+			[
+				5,
+				"cost"
+			],
+			[
+				6,
+				"allergyid"
+			],
+			[
+				6,
+				"patientunitstayid"
+			],
+			[
+				6,
+				"drugname"
+			],
+			[
+				6,
+				"allergyname"
+			],
+			[
+				6,
+				"allergytime"
+			],
+			[
+				7,
+				"intakeoutputid"
+			],
+			[
+				7,
+				"patientunitstayid"
+			],
+			[
+				7,
+				"cellpath"
+			],
+			[
+				7,
+				"celllabel"
+			],
+			[
+				7,
+				"cellvaluenumeric"
+			],
+			[
+				7,
+				"intakeoutputtime"
+			],
+			[
+				8,
+				"microlabid"
+			],
+			[
+				8,
+				"patientunitstayid"
+			],
+			[
+				8,
+				"culturesite"
+			],
+			[
+				8,
+				"organism"
+			],
+			[
+				8,
+				"culturetakentime"
+			],
+			[
+				9,
+				"vitalperiodicid"
+			],
+			[
+				9,
+				"patientunitstayid"
+			],
+			[
+				9,
+				"temperature"
+			],
+			[
+				9,
+				"sao2"
+			],
+			[
+				9,
+				"heartrate"
+			],
+			[
+				9,
+				"respiration"
+			],
+			[
+				9,
+				"systemicsystolic"
+			],
+			[
+				9,
+				"systemicdiastolic"
+			],
+			[
+				9,
+				"systemicmean"
+			],
+			[
+				9,
+				"observationtime"
+			]
+		],
+		"column_types": [
+			"text",
+			"text",
+			"number",
+			"number",
+			"text",
+			"text",
+			"text",
+			"number",
+			"number",
+			"number",
+			"number",
+			"number",
+			"time",
+			"text",
+			"time",
+			"time",
+			"time",
+			"text",
+			"number",
+			"number",
+			"text",
+			"time",
+			"text",
+			"number",
+			"number",
+			"text",
+			"time",
+			"number",
+			"number",
+			"text",
+			"number",
+			"time",
+			"number",
+			"number",
+			"text",
+			"text",
+			"text",
+			"time",
+			"time",
+			"number",
+			"number",
+			"number",
+			"text",
+			"number",
+			"time",
+			"number",
+			"number",
+			"number",
+			"text",
+			"text",
+			"time",
+			"number",
+			"number",
+			"text",
+			"text",
+			"number",
+			"time",
+			"number",
+			"number",
+			"text",
+			"text",
+			"time",
+			"number",
+			"number",
+			"number",
+			"number",
+			"number",
+			"number",
+			"number",
+			"number",
+			"number",
+			"time"
+		],
+		"db_id": "eicu",
+		"foreign_keys": [
+			[
+				19,
+				3
+			],
+			[
+				24,
+				3
+			],
+			[
+				28,
+				3
+			],
+			[
+				33,
+				3
+			],
+			[
+				40,
+				2
+			],
+			[
+				47,
+				3
+			],
+			[
+				52,
+				3
+			],
+			[
+				58,
+				3
+			],
+			[
+				63,
+				3
+			]
+		],
+		"primary_keys": [
+			3,
+			18,
+			23,
+			27,
+			32,
+			39,
+			46,
+			51,
+			57,
+			62
+		],
+		"table_names": [
+			"patient",
+			"diagnosis",
+			"treatment",
+			"lab",
+			"medication",
+			"cost",
+			"allergy",
+			"intakeoutput",
+			"microlab",
+			"vitalperiodic"
+		],
+		"table_names_original": [
+			"patient",
+			"diagnosis",
+			"treatment",
+			"lab",
+			"medication",
+			"cost",
+			"allergy",
+			"intakeoutput",
+			"microlab",
+			"vitalperiodic"
+		]
+	}
+]

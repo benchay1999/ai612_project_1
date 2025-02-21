@@ -1,0 +1,1061 @@
+row_id,subject_id,hadm_id,charttime,spec_type_desc,test_name,org_name
+0,10000032,25742920.0,2100-08-26 20:35:00,swab,r/o vancomycin resistant enterococcus,
+1,10000032,22595853.0,2100-05-27 00:19:00,swab,r/o vancomycin resistant enterococcus,
+2,10000032,29079034.0,2100-08-13 00:55:00,swab,r/o vancomycin resistant enterococcus,
+3,10020944,29974575.0,2100-03-06 17:41:00,swab,r/o vancomycin resistant enterococcus,enterococcus sp.
+4,10037975,27617929.0,2100-02-07 21:32:00,swab,r/o vancomycin resistant enterococcus,
+5,10031757,28477280.0,2100-10-27 00:58:00,swab,r/o vancomycin resistant enterococcus,
+6,10038999,27189241.0,2100-06-01 05:07:00,swab,r/o vancomycin resistant enterococcus,
+7,10000032,22841357.0,2100-07-16 22:45:00,swab,r/o vancomycin resistant enterococcus,
+8,10007928,20338077.0,2100-04-13 10:38:00,serology/blood,helicobacter pylori antibody test,
+9,10019917,22585261.0,2100-01-29 05:55:00,serology/blood,helicobacter pylori antibody test,
+10,10036156,28019404.0,2100-07-17 05:35:00,serology/blood,helicobacter pylori antibody test,
+11,10038081,20755971.0,2100-10-06 05:28:00,serology/blood,"rubeola antibody, igg",
+12,10038999,27189241.0,2100-05-30 21:46:00,urine,legionella urinary antigen,
+13,10037975,27617929.0,2100-02-07 21:32:00,urine,legionella urinary antigen,
+14,10020786,23488445.0,2100-07-01 18:12:00,urine,legionella urinary antigen,
+15,10038992,22797747.0,2100-11-23 21:30:00,urine,legionella urinary antigen,
+16,10009049,22995465.0,2100-06-13 17:00:00,urine,legionella urinary antigen,
+17,10038081,20755971.0,2100-10-01 13:08:00,blood (ebv),epstein-barr virus vca-igm ab,
+18,10035631,29462354.0,2100-09-20 20:30:00,blood (ebv),epstein-barr virus vca-igm ab,
+19,10007818,22987108.0,2100-06-23 04:30:00,blood (ebv),epstein-barr virus vca-igm ab,
+20,10035631,22732862.0,2100-11-17 16:30:00,blood (ebv),epstein-barr virus vca-igm ab,
+21,10038081,20755971.0,2100-10-01 13:08:00,blood (ebv),epstein-barr virus ebna igg ab,
+22,10035631,29462354.0,2100-09-20 20:30:00,blood (ebv),epstein-barr virus ebna igg ab,
+23,10007818,22987108.0,2100-06-23 04:30:00,blood (ebv),epstein-barr virus ebna igg ab,
+24,10035631,22732862.0,2100-11-17 16:30:00,blood (ebv),epstein-barr virus ebna igg ab,
+25,10035631,22732862.0,2100-11-17 16:30:00,blood (cmv ab),cmv igm antibody,
+26,10035631,29462354.0,2100-09-20 20:30:00,blood (cmv ab),cmv igm antibody,
+27,10038081,20755971.0,2100-10-01 13:08:00,blood (cmv ab),cmv igm antibody,
+28,10035631,22732862.0,2100-11-18 11:47:00,bronchial washings,viral culture: r/o cytomegalovirus,
+29,10035631,22732862.0,2100-11-18 11:45:00,bronchial washings,viral culture: r/o cytomegalovirus,
+30,10021487,28998349.0,2100-12-11 15:05:00,mini-bal,viral culture: r/o cytomegalovirus,
+31,10038999,27189241.0,2100-05-29 22:06:00,"fluid,other",viral culture: r/o cytomegalovirus,
+32,10035631,22732862.0,2100-11-17 16:30:00,blood (cmv ab),cmv igg antibody,
+33,10035631,29462354.0,2100-09-20 20:30:00,blood (cmv ab),cmv igg antibody,
+34,10038081,20755971.0,2100-10-01 13:08:00,blood (cmv ab),cmv igg antibody,
+35,10035631,22732862.0,2100-11-17 16:30:00,blood (toxo),toxoplasma igg antibody,
+36,10038081,20755971.0,2100-10-06 05:28:00,blood (toxo),toxoplasma igg antibody,
+37,10007928,20338077.0,2100-04-13 09:54:00,influenza a/b by dfa,direct influenza a antigen test,
+38,10027445,26275841.0,2100-08-10 10:30:00,influenza a/b by dfa,direct influenza a antigen test,
+39,10007928,20338077.0,2100-04-13 09:54:00,influenza a/b by dfa,direct influenza b antigen test,
+40,10027445,26275841.0,2100-08-10 10:30:00,influenza a/b by dfa,direct influenza b antigen test,
+41,10035185,22580999.0,2100-05-18 17:39:00,mrsa screen,mrsa screen,
+42,10007928,20338077.0,2100-04-13 00:56:00,mrsa screen,mrsa screen,
+43,10031757,28477280.0,2100-10-23 09:46:00,mrsa screen,mrsa screen,
+44,10021938,23112364.0,2100-11-03 05:40:00,mrsa screen,mrsa screen,
+45,10032725,20611640.0,2100-04-01 07:31:00,mrsa screen,mrsa screen,
+46,10018423,29366372.0,2100-05-21 19:30:00,mrsa screen,mrsa screen,
+47,10007795,28477357.0,2100-05-01 20:59:00,mrsa screen,mrsa screen,
+48,10005817,20626031.0,2100-12-23 14:40:00,mrsa screen,mrsa screen,
+49,10002495,24982426.0,2100-06-01 21:23:00,mrsa screen,mrsa screen,
+50,10007818,22987108.0,2100-07-03 23:30:00,mrsa screen,mrsa screen,
+51,10011398,27505812.0,2100-12-26 12:39:00,mrsa screen,mrsa screen,
+52,10006053,22942076.0,2100-11-16 17:15:00,mrsa screen,mrsa screen,
+53,10019568,28710730.0,2100-02-04 03:33:00,mrsa screen,mrsa screen,
+54,10000032,29079034.0,2100-08-12 14:14:00,mrsa screen,mrsa screen,
+55,10038933,25129047.0,2100-09-27 14:42:00,mrsa screen,mrsa screen,
+56,10018845,21101111.0,2100-10-29 04:54:00,mrsa screen,mrsa screen,
+57,10029484,20764029.0,2100-11-23 06:14:00,mrsa screen,mrsa screen,
+58,10016810,20973395.0,2100-07-07 02:28:00,mrsa screen,mrsa screen,
+59,10018501,28479513.0,2100-08-10 02:37:00,mrsa screen,mrsa screen,
+60,10031757,28477280.0,2100-10-24 18:30:00,mrsa screen,mrsa screen,
+61,10027602,28166872.0,2100-11-23 17:09:00,mrsa screen,mrsa screen,
+62,10019917,22585261.0,2100-01-27 23:38:00,mrsa screen,mrsa screen,
+63,10027445,26275841.0,2100-08-10 06:07:00,mrsa screen,mrsa screen,
+64,10027445,29163082.0,2100-09-09 15:08:00,mrsa screen,mrsa screen,
+65,10039997,24294180.0,2100-09-15 18:30:00,mrsa screen,mrsa screen,
+66,10015860,25085565.0,2100-10-06 19:59:00,mrsa screen,mrsa screen,
+67,10019172,24997044.0,2100-11-20 11:54:00,mrsa screen,mrsa screen,
+68,10004422,21255400.0,2100-01-18 14:10:00,mrsa screen,mrsa screen,
+69,10020944,29974575.0,2100-03-06 18:00:00,mrsa screen,mrsa screen,
+70,10020944,29974575.0,2100-03-06 17:41:00,mrsa screen,mrsa screen,
+71,10038999,27189241.0,2100-05-31 22:30:00,mrsa screen,mrsa screen,
+72,10007058,22954658.0,2100-11-23 23:45:00,mrsa screen,mrsa screen,
+73,10004235,24181354.0,2100-03-19 17:41:00,mrsa screen,mrsa screen,
+74,10022281,29642388.0,2100-06-23 05:30:00,mrsa screen,mrsa screen,
+75,10036156,28019404.0,2100-07-15 04:55:00,mrsa screen,mrsa screen,
+76,10023771,20044587.0,2100-08-28 12:45:00,mrsa screen,mrsa screen,
+77,10021938,27154822.0,2100-11-14 12:00:00,mrsa screen,mrsa screen,
+78,10008454,20291550.0,2100-12-02 19:28:00,mrsa screen,mrsa screen,
+79,10038081,20755971.0,2100-10-12 11:17:00,mrsa screen,mrsa screen,
+80,10012552,27089790.0,2100-04-04 18:00:00,mrsa screen,mrsa screen,
+81,10037975,27617929.0,2100-02-07 19:32:00,mrsa screen,mrsa screen,
+82,10037975,27617929.0,2100-02-07 21:32:00,mrsa screen,mrsa screen,
+83,10020786,23488445.0,2100-07-01 18:11:00,mrsa screen,mrsa screen,
+84,10009628,25926192.0,2100-09-30 21:11:00,mrsa screen,mrsa screen,
+85,10020740,23831430.0,2100-03-31 06:08:00,mrsa screen,mrsa screen,positive for methicillin resistant staph aureus
+86,10009049,22995465.0,2100-06-13 13:02:00,mrsa screen,mrsa screen,
+87,10004422,21255400.0,2100-01-19 15:10:00,mrsa screen,mrsa screen,
+88,10038933,25129047.0,2100-09-22 15:29:00,mrsa screen,mrsa screen,
+89,10021487,28998349.0,2100-12-07 01:16:00,mrsa screen,mrsa screen,
+90,10009035,28324362.0,2100-05-12 12:09:00,mrsa screen,mrsa screen,
+91,10006580,24159665.0,2100-08-19 17:55:00,mrsa screen,mrsa screen,
+92,10009628,25926192.0,2100-10-02 14:04:00,mrsa screen,mrsa screen,
+93,10021118,24490144.0,2100-12-04 12:30:00,mrsa screen,mrsa screen,
+94,10018081,21027282.0,2100-12-26 17:20:00,mrsa screen,mrsa screen,
+95,10003046,26048429.0,2100-01-15 16:36:00,mrsa screen,mrsa screen,
+96,10020740,25826145.0,2100-06-15 20:25:00,mrsa screen,mrsa screen,positive for methicillin resistant staph aureus
+97,10019777,27738145.0,2100-03-03 23:16:00,mrsa screen,mrsa screen,
+98,10022041,28909879.0,2100-06-08 18:47:00,mrsa screen,mrsa screen,
+99,10024043,24717014.0,2100-04-15 22:57:00,mrsa screen,mrsa screen,
+100,10023239,29295881.0,2100-06-28 20:51:00,mrsa screen,mrsa screen,
+101,10020740,23831430.0,2100-03-23 16:00:00,mrsa screen,mrsa screen,
+102,10001725,25563031.0,2100-04-13 17:51:00,mrsa screen,mrsa screen,
+103,10013049,22675517.0,2100-06-23 11:09:00,mrsa screen,mrsa screen,
+104,10004733,27411876.0,2100-12-22 13:01:00,mrsa screen,mrsa screen,
+105,10029291,22205327.0,2100-02-25 09:30:00,mrsa screen,mrsa screen,
+106,10026406,25260176.0,2100-01-12 07:08:00,mrsa screen,mrsa screen,
+107,10020640,27984218.0,2100-02-26 02:03:00,mrsa screen,mrsa screen,
+108,10015272,27993466.0,2100-06-21 22:35:00,mrsa screen,mrsa screen,
+109,10031757,28477280.0,2100-10-21 23:01:00,mrsa screen,mrsa screen,
+110,10004720,22081550.0,2100-12-04 12:00:00,mrsa screen,mrsa screen,
+111,10039831,26924951.0,2100-12-31 16:21:00,mrsa screen,mrsa screen,
+112,10038081,20755971.0,2100-10-06 05:28:00,serology/blood,mumps igg antibody,
+113,10035631,20385771.0,2100-12-27 00:00:00,immunology (cmv),cmv viral load,
+114,10035631,20385771.0,2100-12-21 00:00:00,immunology (cmv),cmv viral load,
+115,10038999,27189241.0,2100-06-02 14:30:00,immunology (cmv),cmv viral load,
+116,10012552,27089790.0,2100-04-01 22:48:00,staph aureus swab,staph aureus screen,
+117,10021118,24490144.0,2100-11-30 21:45:00,staph aureus swab,staph aureus screen,
+118,10019172,21540783.0,2100-10-12 13:10:00,staph aureus swab,staph aureus screen,
+119,10004422,21255400.0,2100-01-18 13:48:00,staph aureus swab,staph aureus screen,
+120,10019385,20297618.0,2100-03-08 12:46:00,staph aureus swab,staph aureus screen,
+121,10009628,25926192.0,2100-09-30 21:11:00,staph aureus swab,staph aureus screen,
+122,10035185,22580999.0,2100-05-17 14:02:00,staph aureus swab,staph aureus screen,
+123,10005817,20626031.0,2100-12-20 02:08:00,staph aureus swab,staph aureus screen,
+124,10018423,29366372.0,2100-05-20 18:00:00,staph aureus swab,staph aureus screen,
+125,10035631,22732862.0,2100-11-18 11:47:00,bronchial washings,immunofluorescent test for pneumocystis jirovecii (carinii),
+126,10035631,22732862.0,2100-11-18 11:45:00,bronchial washings,immunofluorescent test for pneumocystis jirovecii (carinii),
+127,10021487,28998349.0,2100-12-11 15:05:00,mini-bal,immunofluorescent test for pneumocystis jirovecii (carinii),
+128,10038999,27189241.0,2100-06-02 08:42:00,bronchoalveolar lavage,immunofluorescent test for pneumocystis jirovecii (carinii),
+129,10035631,29462354.0,2100-10-13 06:25:00,blood culture,"blood culture, routine",
+130,10021487,28998349.0,2100-12-14 16:44:00,blood culture,"blood culture, routine",
+131,10021487,28998349.0,2100-12-14 10:55:00,blood culture,"blood culture, routine",
+132,10021487,28998349.0,2100-12-14 16:44:00,blood culture,"blood culture, routine",
+133,10037975,27617929.0,2100-02-08 02:54:00,blood culture,"blood culture, routine",
+134,10037975,27617929.0,2100-02-08 06:01:00,blood culture,"blood culture, routine",
+135,10031757,28477280.0,2100-10-27 15:15:00,blood culture,"blood culture, routine",
+136,10031757,28477280.0,2100-10-27 15:05:00,blood culture,"blood culture, routine",
+137,10038992,22797747.0,2100-11-23 20:55:00,blood culture,"blood culture, routine",
+138,10007818,22987108.0,2100-07-13 12:40:00,blood culture,"blood culture, routine",
+139,10015860,25085565.0,2100-10-09 07:40:00,blood culture,"blood culture, routine",
+140,10015860,25085565.0,2100-10-09 09:10:00,blood culture,"blood culture, routine",
+141,10019172,21540783.0,2100-10-14 19:45:00,blood culture,"blood culture, routine",
+142,10038081,20755971.0,2100-10-13 03:28:00,blood culture,"blood culture, routine",
+143,10035631,29462354.0,2100-10-14 06:40:00,blood culture,"blood culture, routine",
+144,10035631,22732862.0,2100-11-14 20:10:00,blood culture,"blood culture, routine",
+145,10035631,22732862.0,2100-11-14 19:30:00,blood culture,"blood culture, routine",
+146,10021487,28998349.0,2100-12-07 17:03:00,blood culture,"blood culture, routine",
+147,10021487,28998349.0,2100-12-07 18:47:00,blood culture,"blood culture, routine",
+148,10020786,23488445.0,2100-07-03 14:05:00,blood culture,"blood culture, routine",
+149,10020786,23488445.0,2100-07-03 14:05:00,blood culture,"blood culture, routine",
+150,10038992,22797747.0,2100-11-24 06:59:00,blood culture,"blood culture, routine",
+151,10038992,22797747.0,2100-11-24 15:06:00,blood culture,"blood culture, routine",
+152,10038992,22797747.0,2100-11-24 09:50:00,blood culture,"blood culture, routine",
+153,10038992,22797747.0,2100-11-24 21:40:00,blood culture,"blood culture, routine",
+154,10001217,24597018.0,2100-12-03 10:20:00,blood culture,"blood culture, routine",
+155,10001217,24597018.0,2100-12-03 08:55:00,blood culture,"blood culture, routine",
+156,10020740,23831430.0,2100-03-23 16:36:00,blood culture,"blood culture, routine",
+157,10020740,23831430.0,2100-03-23 23:21:00,blood culture,"blood culture, routine",
+158,10020740,23831430.0,2100-03-31 06:08:00,blood culture,"blood culture, routine",
+159,10007818,22987108.0,2100-07-03 23:30:00,blood culture,"blood culture, routine",escherichia coli
+160,10007818,22987108.0,2100-06-30 15:30:00,blood culture,"blood culture, routine",
+161,10007818,22987108.0,2100-07-06 03:49:00,blood culture,"blood culture, routine",
+162,10007818,22987108.0,2100-07-14 04:25:00,blood culture,"blood culture, routine",
+163,10015860,25085565.0,2100-10-10 07:30:00,blood culture,"blood culture, routine",
+164,10015860,25085565.0,2100-10-10 11:00:00,blood culture,"blood culture, routine",
+165,10029291,22205327.0,2100-02-28 04:45:00,blood culture,"blood culture, routine",
+166,10029291,22205327.0,2100-02-27 00:25:00,blood culture,"blood culture, routine",viridans streptococci
+167,10029291,22205327.0,2100-02-27 00:25:00,blood culture,"blood culture, routine",viridans streptococci
+168,10029291,22205327.0,2100-02-27 00:25:00,blood culture,"blood culture, routine",viridans streptococci
+169,10029291,22205327.0,2100-02-27 00:25:00,blood culture,"blood culture, routine",viridans streptococci
+170,10029291,22205327.0,2100-02-28 04:45:00,blood culture,"blood culture, routine",
+171,10029291,22205327.0,2100-02-27 00:25:00,blood culture,"blood culture, routine",viridans streptococci
+172,10032725,25177949.0,2100-03-13 00:30:00,blood culture,"blood culture, routine",
+173,10038999,27189241.0,2100-06-02 04:27:00,blood culture,"blood culture, routine",
+174,10038999,27189241.0,2100-06-02 14:30:00,blood culture,"blood culture, routine",
+175,10038999,27189241.0,2100-06-02 14:30:00,blood culture,"blood culture, routine",
+176,10038999,27189241.0,2100-06-02 21:45:00,blood culture,"blood culture, routine",
+177,10010471,29842315.0,2100-12-16 19:58:00,blood culture,"blood culture, routine",
+178,10010471,29842315.0,2100-12-16 20:11:00,blood culture,"blood culture, routine",
+179,10004235,24181354.0,2100-03-20 09:45:00,blood culture,"blood culture, routine",
+180,10035631,22732862.0,2100-11-15 18:54:00,blood culture,"blood culture, routine",
+181,10021487,28998349.0,2100-12-16 20:20:00,blood culture,"blood culture, routine",
+182,10021487,28998349.0,2100-12-16 20:36:00,blood culture,"blood culture, routine",
+183,10021312,28829452.0,2100-09-15 19:25:00,blood culture,"blood culture, routine",
+184,10021312,28829452.0,2100-09-15 19:25:00,blood culture,"blood culture, routine",
+185,10031757,28477280.0,2100-10-24 20:50:00,blood culture,"blood culture, routine",escherichia coli
+186,10031757,28477280.0,2100-10-24 20:50:00,blood culture,"blood culture, routine",escherichia coli
+187,10031757,28477280.0,2100-10-24 20:50:00,blood culture,"blood culture, routine",escherichia coli
+188,10031757,28477280.0,2100-10-24 20:50:00,blood culture,"blood culture, routine",escherichia coli
+189,10031757,28477280.0,2100-10-24 20:50:00,blood culture,"blood culture, routine",escherichia coli
+190,10031757,28477280.0,2100-10-24 20:50:00,blood culture,"blood culture, routine",escherichia coli
+191,10031757,28477280.0,2100-10-24 20:50:00,blood culture,"blood culture, routine",escherichia coli
+192,10031757,28477280.0,2100-10-24 20:50:00,blood culture,"blood culture, routine",escherichia coli
+193,10031757,28477280.0,2100-10-24 20:50:00,blood culture,"blood culture, routine",escherichia coli
+194,10031757,28477280.0,2100-10-24 20:50:00,blood culture,"blood culture, routine",escherichia coli
+195,10031757,28477280.0,2100-10-24 20:50:00,blood culture,"blood culture, routine",escherichia coli
+196,10031757,28477280.0,2100-10-24 20:50:00,blood culture,"blood culture, routine",escherichia coli
+197,10038992,22797747.0,2100-11-25 06:22:00,blood culture,"blood culture, routine",
+198,10020740,23831430.0,2100-04-01 03:41:00,blood culture,"blood culture, routine",
+199,10020740,23831430.0,2100-04-16 17:20:00,blood culture,"blood culture, routine",
+200,10009049,22995465.0,2100-06-14 20:00:00,blood culture,"blood culture, routine",
+201,10009049,22995465.0,2100-06-14 20:00:00,blood culture,"blood culture, routine",
+202,10007818,22987108.0,2100-07-07 03:43:00,blood culture,"blood culture, routine",
+203,10004733,27411876.0,2100-12-22 14:13:00,blood culture,"blood culture, routine",
+204,10004733,27411876.0,2100-12-22 14:13:00,blood culture,"blood culture, routine",
+205,10010471,29842315.0,2100-12-17 05:27:00,blood culture,"blood culture, routine",
+206,10010471,29842315.0,2100-12-17 05:27:00,blood culture,"blood culture, routine",
+207,10010471,29842315.0,2100-12-17 12:25:00,blood culture,"blood culture, routine",
+208,10010471,29842315.0,2100-12-17 14:15:00,blood culture,"blood culture, routine",
+209,10004235,24181354.0,2100-03-21 02:21:00,blood culture,"blood culture, routine",
+210,10004235,24181354.0,2100-03-21 02:21:00,blood culture,"blood culture, routine",
+211,10007795,25135483.0,2100-05-14 06:00:00,blood culture,"blood culture, routine",
+212,10004235,22187210.0,2100-07-14 23:55:00,blood culture,"blood culture, routine",
+213,10004235,22187210.0,2100-07-15 06:10:00,blood culture,"blood culture, routine",
+214,10007795,20285402.0,2100-08-14 21:10:00,blood culture,"blood culture, routine",
+215,10035631,29462354.0,2100-10-08 15:30:00,blood culture,"blood culture, routine",viridans streptococci
+216,10035631,29462354.0,2100-10-08 16:45:00,blood culture,"blood culture, routine",
+217,10035631,29462354.0,2100-10-08 15:30:00,blood culture,"blood culture, routine",viridans streptococci
+218,10035631,29462354.0,2100-10-08 15:30:00,blood culture,"blood culture, routine",viridans streptococci
+219,10035631,29462354.0,2100-10-08 15:30:00,blood culture,"blood culture, routine",viridans streptococci
+220,10037975,27617929.0,2100-02-11 21:00:00,blood culture,"blood culture, routine",
+221,10020640,27984218.0,2100-02-26 02:35:00,blood culture,"blood culture, routine",
+222,10038992,22797747.0,2100-11-26 06:50:00,blood culture,"blood culture, routine",
+223,10027602,28166872.0,2100-11-29 02:27:00,blood culture,"blood culture, routine",
+224,10027602,28166872.0,2100-11-29 02:30:00,blood culture,"blood culture, routine",
+225,10020740,23831430.0,2100-04-09 23:16:00,blood culture,"blood culture, routine",
+226,10007818,22987108.0,2100-07-16 17:44:00,blood culture,"blood culture, routine",
+227,10004720,22081550.0,2100-12-04 14:29:00,blood culture,"blood culture, routine",
+228,10004733,27411876.0,2100-12-23 02:38:00,blood culture,"blood culture, routine",
+229,10004733,27411876.0,2100-12-31 12:35:00,blood culture,"blood culture, routine",
+230,10004733,27411876.0,2100-12-31 11:02:00,blood culture,"blood culture, routine",
+231,10019777,27738145.0,2100-03-06 03:27:00,blood culture,"blood culture, routine",
+232,10019777,27738145.0,2100-03-06 03:27:00,blood culture,"blood culture, routine",
+233,10029291,22205327.0,2100-03-01 04:01:00,blood culture,"blood culture, routine",
+234,10038999,27189241.0,2100-06-04 01:10:00,blood culture,"blood culture, routine",
+235,10038999,27189241.0,2100-06-04 01:36:00,blood culture,"blood culture, routine",
+236,10038081,20755971.0,2100-09-30 22:21:00,blood culture,"blood culture, routine",
+237,10010471,29842315.0,2100-12-18 09:24:00,blood culture,"blood culture, routine",
+238,10004235,24181354.0,2100-03-22 05:19:00,blood culture,"blood culture, routine",
+239,10004235,24181354.0,2100-03-22 05:20:00,blood culture,"blood culture, routine",
+240,10007795,28477357.0,2100-04-23 16:15:00,blood culture,"blood culture, routine",
+241,10007795,28477357.0,2100-04-23 14:31:00,blood culture,"blood culture, routine",
+242,10007795,28477357.0,2100-05-01 22:02:00,blood culture,"blood culture, routine",
+243,10007795,20285402.0,2100-08-15 08:10:00,blood culture,"blood culture, routine",
+244,10035631,29462354.0,2100-10-09 11:15:00,blood culture,"blood culture, routine",
+245,10035631,29462354.0,2100-10-09 12:58:00,blood culture,"blood culture, routine",
+246,10021487,28998349.0,2100-12-10 11:38:00,blood culture,"blood culture, routine",
+247,10021487,28998349.0,2100-12-10 10:00:00,blood culture,"blood culture, routine",
+248,10021487,28998349.0,2100-12-18 17:00:00,blood culture,"blood culture, routine",
+249,10021487,28998349.0,2100-12-18 17:01:00,blood culture,"blood culture, routine",
+250,10037975,27617929.0,2100-02-12 02:55:00,blood culture,"blood culture, routine",
+251,10007928,20338077.0,2100-04-13 04:30:00,blood culture,"blood culture, routine",
+252,10007928,20338077.0,2100-04-13 02:20:00,blood culture,"blood culture, routine",
+253,10031757,28477280.0,2100-10-31 08:50:00,blood culture,"blood culture, routine",
+254,10038992,22797747.0,2100-11-27 07:33:00,blood culture,"blood culture, routine",
+255,10027602,28166872.0,2100-11-30 04:45:00,blood culture,"blood culture, routine",
+256,10027602,28166872.0,2100-11-30 04:45:00,blood culture,"blood culture, routine",
+257,10020740,23831430.0,2100-04-10 21:50:00,blood culture,"blood culture, routine",
+258,10020740,23831430.0,2100-04-10 00:00:00,blood culture,"blood culture, routine",
+259,10020740,23831430.0,2100-04-10 21:30:00,blood culture,"blood culture, routine",
+260,10009049,22995465.0,2100-06-16 05:25:00,blood culture,"blood culture, routine",
+261,10007818,22987108.0,2100-07-03 20:00:00,blood culture,"blood culture, routine",escherichia coli
+262,10007818,22987108.0,2100-07-03 20:00:00,blood culture,"blood culture, routine",escherichia coli
+263,10007818,22987108.0,2100-07-03 20:00:00,blood culture,"blood culture, routine",escherichia coli
+264,10007818,22987108.0,2100-07-03 20:00:00,blood culture,"blood culture, routine",escherichia coli
+265,10007818,22987108.0,2100-07-03 20:00:00,blood culture,"blood culture, routine",escherichia coli
+266,10007818,22987108.0,2100-07-03 20:00:00,blood culture,"blood culture, routine",escherichia coli
+267,10007818,22987108.0,2100-07-03 20:00:00,blood culture,"blood culture, routine",escherichia coli
+268,10007818,22987108.0,2100-07-03 20:00:00,blood culture,"blood culture, routine",escherichia coli
+269,10007818,22987108.0,2100-07-03 20:00:00,blood culture,"blood culture, routine",escherichia coli
+270,10007818,22987108.0,2100-07-03 20:00:00,blood culture,"blood culture, routine",escherichia coli
+271,10007818,22987108.0,2100-07-03 20:00:00,blood culture,"blood culture, routine",escherichia coli
+272,10007818,22987108.0,2100-07-03 20:00:00,blood culture,"blood culture, routine",escherichia coli
+273,10016742,29281842.0,2100-07-25 12:11:00,blood culture,"blood culture, routine",
+274,10016742,29281842.0,2100-07-25 12:35:00,blood culture,"blood culture, routine",
+275,10016742,27568122.0,2100-08-10 10:54:00,blood culture,"blood culture, routine",
+276,10004720,22081550.0,2100-12-05 04:55:00,blood culture,"blood culture, routine",
+277,10004733,27411876.0,2100-12-24 04:00:00,blood culture,"blood culture, routine",
+278,10029291,22205327.0,2100-02-27 00:15:00,blood culture,"blood culture, routine",
+279,10029291,22205327.0,2100-03-02 05:03:00,blood culture,"blood culture, routine",
+280,10032725,20611640.0,2100-04-01 14:19:00,blood culture,"blood culture, routine",
+281,10006053,22942076.0,2100-11-16 07:25:00,blood culture,"blood culture, routine",
+282,10006053,22942076.0,2100-11-16 09:35:00,blood culture,"blood culture, routine",
+283,10010471,29842315.0,2100-12-18 05:41:00,blood culture,"blood culture, routine",
+284,10010471,29842315.0,2100-12-19 08:20:00,blood culture,"blood culture, routine",
+285,10007795,20285402.0,2100-08-16 20:05:00,blood culture,"blood culture, routine",
+286,10007795,20285402.0,2100-08-16 19:55:00,blood culture,"blood culture, routine",
+287,10035631,29462354.0,2100-10-10 06:10:00,blood culture,"blood culture, routine",
+288,10035631,22732862.0,2100-11-18 18:40:00,blood culture,"blood culture, routine",
+289,10035631,22732862.0,2100-11-18 17:05:00,blood culture,"blood culture, routine",
+290,10021487,28998349.0,2100-12-11 15:33:00,blood culture,"blood culture, routine",
+291,10021487,28998349.0,2100-12-11 14:44:00,blood culture,"blood culture, routine",
+292,10021487,28998349.0,2100-12-27 00:18:00,blood culture,"blood culture, routine",
+293,10021487,28998349.0,2100-12-27 05:48:00,blood culture,"blood culture, routine",
+294,10007928,20338077.0,2100-04-14 05:37:00,blood culture,"blood culture, routine",
+295,10002495,24982426.0,2100-06-02 05:48:00,blood culture,"blood culture, routine",
+296,10002495,24982426.0,2100-06-02 05:48:00,blood culture,"blood culture, routine",
+297,10031757,28477280.0,2100-10-31 06:10:00,blood culture,"blood culture, routine",
+298,10027602,28166872.0,2100-12-01 20:30:00,blood culture,"blood culture, routine",
+299,10027602,28166872.0,2100-12-01 21:00:00,blood culture,"blood culture, routine",
+300,10020740,23831430.0,2100-04-11 09:56:00,blood culture,"blood culture, routine",
+301,10020740,23831430.0,2100-04-11 10:30:00,blood culture,"blood culture, routine",
+302,10007818,22987108.0,2100-07-04 09:15:00,blood culture,"blood culture, routine",
+303,10007818,22987108.0,2100-07-18 04:00:00,blood culture,"blood culture, routine",
+304,10016742,28506150.0,2100-08-03 05:51:00,blood culture,"blood culture, routine",
+305,10002428,25797028.0,2100-07-28 08:10:00,blood culture,"blood culture, routine",
+306,10002428,25797028.0,2100-07-28 02:00:00,blood culture,"blood culture, routine",
+307,10004235,24181354.0,2100-03-24 05:37:00,blood culture,"blood culture, routine",
+308,10004235,24181354.0,2100-03-24 05:37:00,blood culture,"blood culture, routine",
+309,10007795,25135483.0,2100-05-17 08:40:00,blood culture,"blood culture, routine",
+310,10035631,29462354.0,2100-10-11 06:35:00,blood culture,"blood culture, routine",
+311,10015931,28157142.0,2100-12-05 00:17:00,blood culture,"blood culture, routine",
+312,10015931,28157142.0,2100-12-05 00:45:00,blood culture,"blood culture, routine",
+313,10021487,28998349.0,2100-12-28 18:50:00,blood culture,"blood culture, routine",
+314,10021487,28998349.0,2100-12-28 21:00:00,blood culture,"blood culture, routine",
+315,10007928,20338077.0,2100-04-15 03:05:00,blood culture,"blood culture, routine",
+316,10031757,28477280.0,2100-10-25 02:00:00,blood culture,"blood culture, routine",
+317,10020740,23831430.0,2100-04-05 11:45:00,blood culture,"blood culture, routine",
+318,10007818,22987108.0,2100-07-05 02:50:00,blood culture,"blood culture, routine",
+319,10007818,22987108.0,2100-07-05 03:25:00,blood culture,"blood culture, routine",
+320,10007818,22987108.0,2100-07-11 10:29:00,blood culture,"blood culture, routine",
+321,10007818,22987108.0,2100-07-11 10:29:00,blood culture,"blood culture, routine",
+322,10016742,28506150.0,2100-08-04 03:23:00,blood culture,"blood culture, routine",
+323,10015860,25085565.0,2100-10-07 04:03:00,blood culture,"blood culture, routine",
+324,10015860,25085565.0,2100-10-07 04:03:00,blood culture,"blood culture, routine",
+325,10039708,20572787.0,2100-11-09 05:45:00,blood culture,"blood culture, routine",
+326,10008454,20291550.0,2100-12-02 16:15:00,blood culture,"blood culture, routine",
+327,10038999,27189241.0,2100-05-31 06:38:00,blood culture,"blood culture, routine",
+328,10038999,27189241.0,2100-05-30 18:25:00,blood culture,"blood culture, routine",gemella species
+329,10038999,27189241.0,2100-05-31 16:44:00,blood culture,"blood culture, routine",
+330,10038081,20755971.0,2100-10-03 13:28:00,blood culture,"blood culture, routine",
+331,10038081,20755971.0,2100-10-03 15:48:00,blood culture,"blood culture, routine",
+332,10004235,24181354.0,2100-03-25 07:04:00,blood culture,"blood culture, routine",
+333,10004235,24181354.0,2100-03-25 07:10:00,blood culture,"blood culture, routine",
+334,10038933,25129047.0,2100-09-29 18:09:00,blood culture,"blood culture, routine",
+335,10038933,25129047.0,2100-09-29 19:15:00,blood culture,"blood culture, routine",
+336,10035631,29462354.0,2100-10-12 08:00:00,blood culture,"blood culture, routine",
+337,10021487,28998349.0,2100-12-13 14:55:00,blood culture,"blood culture, routine",anaerobic gram positive rod(s)
+338,10037975,27617929.0,2100-02-07 21:25:00,blood culture,"blood culture, routine",
+339,10027602,28166872.0,2100-12-03 01:15:00,blood culture,"blood culture, routine",
+340,10027602,28166872.0,2100-12-03 01:04:00,blood culture,"blood culture, routine",
+341,10020740,23831430.0,2100-04-06 00:09:00,blood culture,"blood culture, routine",
+342,10027445,26275841.0,2100-08-11 10:10:00,blood culture,"blood culture, routine",
+343,10015860,25085565.0,2100-10-08 06:16:00,blood culture,"blood culture, routine",
+344,10015860,25085565.0,2100-10-08 09:28:00,blood culture,"blood culture, routine",
+345,10038999,27189241.0,2100-06-01 05:08:00,blood culture,"blood culture, routine",
+346,10038081,20755971.0,2100-10-12 09:28:00,blood culture,"blood culture, routine",
+347,10038081,20755971.0,2100-10-12 16:50:00,blood culture,"blood culture, routine",
+348,10037861,24256866.0,2100-10-12 21:30:00,blood culture,"blood culture, routine",
+349,10037861,24256866.0,2100-10-12 21:00:00,blood culture,"blood culture, routine",
+350,10038081,20755971.0,2100-10-12 21:00:00,blood culture,"blood culture, routine",
+351,10031757,28477280.0,2100-10-24 20:50:00,blood culture,aerobic bottle gram stain,
+352,10035631,29462354.0,2100-10-08 15:30:00,blood culture,aerobic bottle gram stain,
+353,10007818,22987108.0,2100-07-03 23:30:00,blood culture,aerobic bottle gram stain,
+354,10007818,22987108.0,2100-07-03 20:00:00,blood culture,aerobic bottle gram stain,
+355,10031757,28477280.0,2100-10-24 20:50:00,blood culture,anaerobic bottle gram stain,
+356,10038999,27189241.0,2100-05-30 18:25:00,blood culture,anaerobic bottle gram stain,
+357,10021487,28998349.0,2100-12-13 14:55:00,blood culture,anaerobic bottle gram stain,
+358,10035631,29462354.0,2100-10-08 15:30:00,blood culture,anaerobic bottle gram stain,
+359,10029291,22205327.0,2100-02-27 00:25:00,blood culture,anaerobic bottle gram stain,
+360,10007818,22987108.0,2100-07-03 20:00:00,blood culture,anaerobic bottle gram stain,
+361,10007818,22987108.0,2100-07-03 23:30:00,blood culture,anaerobic bottle gram stain,
+362,10007818,22987108.0,2100-07-13 14:00:00,fluid received in blood culture bottles,fluid culture in bottles,
+363,10007818,22987108.0,2100-07-03 23:30:00,fluid received in blood culture bottles,fluid culture in bottles,
+364,10007818,22987108.0,2100-07-16 13:00:00,fluid received in blood culture bottles,fluid culture in bottles,
+365,10038999,27189241.0,2100-05-29 22:06:00,fluid received in blood culture bottles,fluid culture in bottles,
+366,10007818,22987108.0,2100-07-11 17:00:00,fluid received in blood culture bottles,fluid culture in bottles,
+367,10038081,20755971.0,2100-10-03 15:38:00,fluid received in blood culture bottles,fluid culture in bottles,
+368,10035631,20385771.0,2100-12-14 12:26:00,stem cell - blood culture,stem cell aer/ana culture,
+369,10035631,20385771.0,2100-12-14 08:06:00,stem cell - blood culture,stem cell aer/ana culture,
+370,10038999,27189241.0,2100-05-29 22:06:00,"fluid,other",enterovirus culture,
+371,10007818,22987108.0,2100-07-14 18:29:00,rapid respiratory viral screen & culture,respiratory viral culture,
+372,10016742,28506150.0,2100-08-02 12:30:00,rapid respiratory viral screen & culture,respiratory viral culture,
+373,10021487,28998349.0,2100-12-11 15:05:00,rapid respiratory viral screen & culture,respiratory viral culture,
+374,10038999,27189241.0,2100-06-02 08:42:00,rapid respiratory viral screen & culture,respiratory viral culture,
+375,10009049,22995465.0,2100-06-13 17:00:00,rapid respiratory viral screen & culture,respiratory viral culture,
+376,10035631,29462354.0,2100-10-14 11:15:00,rapid respiratory viral screen & culture,respiratory viral culture,
+377,10020640,27984218.0,2100-02-26 05:33:00,rapid respiratory viral screen & culture,respiratory viral culture,
+378,10007928,20338077.0,2100-04-15 03:11:00,stool,c. difficile pcr,
+379,10020740,23831430.0,2100-03-27 14:15:00,stool,c. difficile pcr,
+380,10007818,22987108.0,2100-06-26 21:35:00,stool,c. difficile pcr,
+381,10029484,20764029.0,2100-11-23 18:14:00,stool,c. difficile pcr,
+382,10016742,29281842.0,2100-07-27 14:40:00,stool,c. difficile pcr,
+383,10015931,28157142.0,2100-12-06 08:43:00,stool,c. difficile pcr,
+384,10020944,29974575.0,2100-03-16 13:00:00,stool,c. difficile pcr,
+385,10007818,22987108.0,2100-07-08 05:52:00,stool,c. difficile pcr,
+386,10007818,22987108.0,2100-07-13 15:21:00,stool,c. difficile pcr,cancelled
+387,10005817,20626031.0,2100-12-28 10:17:00,stool,c. difficile pcr,
+388,10020740,23831430.0,2100-04-15 23:25:00,stool,c. difficile pcr,
+389,10009049,22995465.0,2100-06-14 21:49:00,stool,c. difficile pcr,
+390,10007818,22987108.0,2100-06-30 06:16:00,stool,c. difficile pcr,cancelled
+391,10007818,22987108.0,2100-07-08 17:29:00,stool,c. difficile pcr,cancelled
+392,10007818,22987108.0,2100-07-14 13:49:00,stool,c. difficile pcr,
+393,10019777,27738145.0,2100-03-13 02:02:00,stool,c. difficile pcr,
+394,10029291,22205327.0,2100-03-04 03:31:00,stool,c. difficile pcr,clostridium difficile
+395,10035631,29462354.0,2100-10-07 12:57:00,stool,c. difficile pcr,
+396,10035631,20385771.0,2100-12-24 09:23:00,stool,c. difficile pcr,
+397,10037975,27617929.0,2100-02-11 11:03:00,stool,c. difficile pcr,
+398,10007795,28477357.0,2100-05-02 02:17:00,stool,c. difficile pcr,
+399,10002495,24982426.0,2100-06-01 21:29:00,stool,c. difficile pcr,clostridium difficile
+400,10031757,28477280.0,2100-10-31 20:02:00,stool,c. difficile pcr,
+401,10038999,27189241.0,2100-06-02 08:42:00,bronchoalveolar lavage,acid fast culture,
+402,10021312,28829452.0,2100-09-19 15:50:00,bronchial washings,acid fast culture,
+403,10038999,27189241.0,2100-06-02 08:42:00,bronchial washings,acid fast culture,
+404,10021312,25020332.0,2100-08-19 16:22:00,bronchial washings,acid fast culture,
+405,10038999,27189241.0,2100-05-29 22:06:00,"fluid,other",acid fast culture,
+406,10038999,27189241.0,2100-06-05 08:38:00,pleural fluid,acid fast culture,
+407,10021487,28998349.0,2100-12-11 15:05:00,mini-bal,acid fast culture,
+408,10037975,27617929.0,2100-02-08 20:25:00,sputum,acid fast culture,
+409,10037975,27617929.0,2100-02-07 22:04:00,sputum,acid fast culture,
+410,10007818,22987108.0,2100-07-14 18:29:00,bronchoalveolar lavage,acid fast culture,
+411,10035631,22732862.0,2100-11-18 11:45:00,bronchial washings,acid fast culture,
+412,10035631,22732862.0,2100-11-18 11:47:00,bronchial washings,acid fast culture,
+413,10035631,22732862.0,2100-11-18 11:47:00,bronchial washings,potassium hydroxide preparation,
+414,10021312,25020332.0,2100-08-19 16:22:00,bronchial washings,potassium hydroxide preparation,
+415,10021312,28829452.0,2100-09-19 15:50:00,bronchial washings,potassium hydroxide preparation,
+416,10035631,22732862.0,2100-11-18 11:45:00,bronchial washings,potassium hydroxide preparation,
+417,10021487,28998349.0,2100-12-11 15:05:00,mini-bal,potassium hydroxide preparation,
+418,10020740,23831430.0,2100-03-28 05:49:00,stool,campylobacter culture,
+419,10007928,20338077.0,2100-04-15 03:11:00,stool,campylobacter culture,
+420,10029484,20764029.0,2100-11-24 18:43:00,stool,campylobacter culture,
+421,10035631,29462354.0,2100-10-07 12:57:00,stool,campylobacter culture,
+422,10007928,20338077.0,2100-04-16 21:30:00,stool,campylobacter culture,
+423,10037975,27617929.0,2100-02-11 11:03:00,stool,campylobacter culture,
+424,10001217,24597018.0,2100-12-04 12:20:00,abscess,anaerobic culture,fusobacterium nucleatum
+425,10001217,24597018.0,2100-12-04 12:20:00,abscess,anaerobic culture,fusobacterium nucleatum
+426,10007818,22987108.0,2100-07-13 14:07:00,peritoneal fluid,anaerobic culture,
+427,10015860,25085565.0,2100-10-09 15:35:00,swab,anaerobic culture,prevotella species
+428,10015860,25085565.0,2100-10-09 15:35:00,swab,anaerobic culture,fusobacterium species
+429,10007795,25135483.0,2100-05-14 11:00:00,abscess,anaerobic culture,
+430,10007818,22987108.0,2100-06-22 15:09:00,peritoneal fluid,anaerobic culture,
+431,10007818,22987108.0,2100-06-30 12:40:00,peritoneal fluid,anaerobic culture,
+432,10038081,20755971.0,2100-10-06 15:55:00,peritoneal fluid,anaerobic culture,
+433,10021487,28998349.0,2100-12-31 16:27:00,pleural fluid,anaerobic culture,
+434,10007818,22987108.0,2100-07-16 13:00:00,peritoneal fluid,anaerobic culture,
+435,10021487,28998349.0,2100-12-26 21:09:00,peritoneal fluid,anaerobic culture,bacteroides fragilis group
+436,10021487,28998349.0,2100-12-26 21:09:00,peritoneal fluid,anaerobic culture,porphyromonas species
+437,10038999,27189241.0,2100-06-05 08:38:00,pleural fluid,anaerobic culture,
+438,10006053,22942076.0,2100-11-16 06:50:00,peritoneal fluid,anaerobic culture,
+439,10007795,25135483.0,2100-05-14 11:00:00,foreign body,anaerobic culture,
+440,10000032,22595853.0,2100-05-27 10:11:00,peritoneal fluid,anaerobic culture,
+441,10038999,27189241.0,2100-05-29 22:06:00,"fluid,other",anaerobic culture,
+442,10021487,28998349.0,2100-12-30 14:35:00,"fluid,other",anaerobic culture,bacteroides fragilis group
+443,10007818,22987108.0,2100-07-11 16:53:00,peritoneal fluid,anaerobic culture,
+444,10038999,27189241.0,2100-05-30 21:46:00,"fluid,other",anaerobic culture,
+445,10038081,20755971.0,2100-10-03 15:39:00,peritoneal fluid,anaerobic culture,
+446,10007795,28477357.0,2100-04-28 14:33:00,abscess,anaerobic culture,
+447,10021487,28998349.0,2100-12-15 12:00:00,abscess,anaerobic culture,bacteroides fragilis group
+448,10021487,28998349.0,2100-12-15 14:36:00,peritoneal fluid,anaerobic culture,bacteroides fragilis group
+449,10035631,22732862.0,2100-11-18 11:45:00,bronchial washings,acid fast smear,
+450,10035631,22732862.0,2100-11-18 11:47:00,bronchial washings,acid fast smear,
+451,10021487,28998349.0,2100-12-11 15:05:00,mini-bal,acid fast smear,
+452,10021312,25020332.0,2100-08-19 16:22:00,bronchial washings,acid fast smear,
+453,10021312,28829452.0,2100-09-19 15:50:00,bronchial washings,acid fast smear,
+454,10037975,27617929.0,2100-02-07 22:04:00,sputum,acid fast smear,
+455,10038999,27189241.0,2100-06-02 08:42:00,bronchoalveolar lavage,acid fast smear,
+456,10038999,27189241.0,2100-06-02 08:42:00,bronchial washings,acid fast smear,
+457,10007818,22987108.0,2100-07-14 18:29:00,bronchoalveolar lavage,acid fast smear,
+458,10037975,27617929.0,2100-02-08 20:25:00,sputum,acid fast smear,
+459,10038999,27189241.0,2100-06-05 08:38:00,pleural fluid,acid fast smear,
+460,10038999,27189241.0,2100-05-29 22:06:00,"fluid,other",acid fast smear,
+461,10007058,22954658.0,2100-11-25 04:24:00,serology/blood,rapid plasma reagin test,
+462,10004733,27411876.0,2100-12-22 22:02:00,serology/blood,rapid plasma reagin test,
+463,10038081,20755971.0,2100-10-01 13:08:00,serology/blood,rapid plasma reagin test,
+464,10035631,22732862.0,2100-11-17 16:30:00,serology/blood,rapid plasma reagin test,
+465,10002930,23688993.0,2100-08-28 15:30:00,serology/blood,rapid plasma reagin test,
+466,10007818,22987108.0,2100-07-12 03:10:00,serology/blood,cryptococcal antigen,
+467,10020740,23831430.0,2100-03-28 22:00:00,stool,ova + parasites,
+468,10020740,23831430.0,2100-03-28 05:49:00,stool,ova + parasites,
+469,10007928,20338077.0,2100-04-16 21:30:00,stool,ova + parasites,
+470,10020740,23831430.0,2100-03-29 15:41:00,stool,ova + parasites,
+471,10035631,29462354.0,2100-10-07 12:57:00,stool,ova + parasites,
+472,10037975,27617929.0,2100-02-11 11:03:00,stool,ova + parasites,
+473,10017492,27672872.0,2100-03-26 18:21:00,csf;spinal fluid,viral culture,
+474,10007818,22987108.0,2100-06-23 04:30:00,serology/blood,rubella igg serology,
+475,10038081,20755971.0,2100-10-01 13:08:00,serology/blood,rubella igg serology,
+476,10021487,28998349.0,2100-12-11 14:44:00,blood culture ( myco/f lytic bottle),blood/afb culture,
+477,10007928,20338077.0,2100-04-15 03:04:00,blood culture ( myco/f lytic bottle),blood/afb culture,
+478,10007795,28477357.0,2100-05-01 22:02:00,blood culture ( myco/f lytic bottle),blood/afb culture,
+479,10038992,22797747.0,2100-11-24 06:59:00,blood culture ( myco/f lytic bottle),blood/afb culture,
+480,10007795,28477357.0,2100-05-01 22:02:00,blood culture ( myco/f lytic bottle),blood/fungal culture,
+481,10021487,28998349.0,2100-12-11 14:44:00,blood culture ( myco/f lytic bottle),blood/fungal culture,
+482,10007928,20338077.0,2100-04-15 03:04:00,blood culture ( myco/f lytic bottle),blood/fungal culture,
+483,10038992,22797747.0,2100-11-24 06:59:00,blood culture ( myco/f lytic bottle),blood/fungal culture,
+484,10020740,23831430.0,2100-03-28 05:49:00,stool,fecal culture,
+485,10007928,20338077.0,2100-04-15 03:11:00,stool,fecal culture,
+486,10029484,20764029.0,2100-11-24 18:43:00,stool,fecal culture,
+487,10007928,20338077.0,2100-04-16 21:30:00,stool,fecal culture,
+488,10035631,29462354.0,2100-10-07 12:57:00,stool,fecal culture,
+489,10037975,27617929.0,2100-02-11 11:03:00,stool,fecal culture,
+490,10007818,22987108.0,2100-07-16 13:00:00,peritoneal fluid,fluid culture,
+491,10027602,28166872.0,2100-12-05 13:35:00,csf;spinal fluid,fluid culture,
+492,10038999,27189241.0,2100-06-05 08:38:00,pleural fluid,fluid culture,
+493,10006053,22942076.0,2100-11-16 06:50:00,peritoneal fluid,fluid culture,
+494,10000032,22595853.0,2100-05-27 10:11:00,peritoneal fluid,fluid culture,
+495,10017492,27672872.0,2100-03-26 18:21:00,csf;spinal fluid,fluid culture,
+496,10038999,27189241.0,2100-05-29 22:06:00,"fluid,other",fluid culture,
+497,10021487,28998349.0,2100-12-31 16:27:00,pleural fluid,fluid culture,"staphylococcus, coagulase negative"
+498,10007818,22987108.0,2100-07-11 16:53:00,peritoneal fluid,fluid culture,
+499,10038999,27189241.0,2100-05-30 21:46:00,"fluid,other",fluid culture,
+500,10038081,20755971.0,2100-10-03 15:39:00,peritoneal fluid,fluid culture,
+501,10021487,28998349.0,2100-12-26 21:09:00,peritoneal fluid,fluid culture,
+502,10027602,28166872.0,2100-11-30 04:46:00,csf;spinal fluid,fluid culture,
+503,10007818,22987108.0,2100-07-13 14:07:00,peritoneal fluid,fluid culture,
+504,10007795,28477357.0,2100-04-28 14:33:00,abscess,fluid culture,"candida albicans, presumptive identification"
+505,10021487,28998349.0,2100-12-30 14:35:00,"fluid,other",fluid culture,
+506,10001217,24597018.0,2100-12-03 02:37:00,csf;spinal fluid,fluid culture,
+507,10007818,22987108.0,2100-06-22 15:09:00,peritoneal fluid,fluid culture,
+508,10007818,22987108.0,2100-06-30 12:40:00,peritoneal fluid,fluid culture,
+509,10038081,20755971.0,2100-10-06 15:55:00,peritoneal fluid,fluid culture,
+510,10021487,28998349.0,2100-12-15 14:36:00,peritoneal fluid,fluid culture,gram negative rod(s)
+511,10021487,28998349.0,2100-12-15 14:36:00,peritoneal fluid,fluid culture,gram positive bacteria
+512,10037975,27617929.0,2100-02-07 22:04:00,sputum,fungal culture,
+513,10038999,27189241.0,2100-06-02 08:42:00,bronchoalveolar lavage,fungal culture,
+514,10038999,27189241.0,2100-05-29 22:06:00,"fluid,other",fungal culture,
+515,10007818,22987108.0,2100-07-14 18:29:00,bronchoalveolar lavage,fungal culture,yeast
+516,10007818,22987108.0,2100-07-13 14:07:00,peritoneal fluid,fungal culture,
+517,10007795,25135483.0,2100-05-14 11:00:00,abscess,fungal culture,candida albicans
+518,10027602,28166872.0,2100-12-05 13:35:00,csf;spinal fluid,fungal culture,
+519,10037975,27617929.0,2100-02-09 05:03:00,sputum,fungal culture,
+520,10027602,28166872.0,2100-11-30 04:46:00,csf;spinal fluid,fungal culture,
+521,10016742,28506150.0,2100-08-02 12:30:00,bronchial washings,fungal culture,
+522,10007795,28477357.0,2100-04-28 14:33:00,abscess,fungal culture,"candida albicans, presumptive identification"
+523,10007795,25135483.0,2100-05-14 11:00:00,foreign body,fungal culture,
+524,10021487,28998349.0,2100-12-11 15:05:00,mini-bal,fungal culture,
+525,10004733,27411876.0,2100-12-22 13:34:00,sputum,fungal culture,yeast
+526,10035631,22732862.0,2100-11-18 11:47:00,bronchial washings,fungal culture,
+527,10035631,22732862.0,2100-11-18 11:45:00,bronchial washings,fungal culture,
+528,10021312,28829452.0,2100-09-19 15:50:00,bronchial washings,fungal culture,yeast
+529,10021312,25020332.0,2100-08-19 16:22:00,bronchial washings,fungal culture,yeast
+530,10007818,22987108.0,2100-07-11 16:53:00,peritoneal fluid,fungal culture,
+531,10021312,25020332.0,2100-08-19 16:22:00,bronchial washings,gram stain,
+532,10021312,28829452.0,2100-09-19 15:50:00,bronchial washings,gram stain,
+533,10027602,28166872.0,2100-12-01 21:00:00,sputum,gram stain,
+534,10027602,28166872.0,2100-12-02 14:50:00,mini-bal,gram stain,
+535,10015860,25085565.0,2100-10-07 10:20:00,swab,gram stain,
+536,10038999,27189241.0,2100-05-30 21:46:00,"fluid,other",gram stain,
+537,10038999,27189241.0,2100-05-30 21:46:00,sputum,gram stain,
+538,10021487,28998349.0,2100-12-13 14:50:00,bronchoalveolar lavage,gram stain,
+539,10027445,26275841.0,2100-08-11 12:05:00,sputum,gram stain,
+540,10004235,24181354.0,2100-03-21 12:33:00,sputum,gram stain,
+541,10021487,28998349.0,2100-12-30 14:35:00,"fluid,other",gram stain,
+542,10037975,27617929.0,2100-02-07 22:04:00,sputum,gram stain,
+543,10020786,23488445.0,2100-07-02 11:08:00,sputum,gram stain,
+544,10007818,22987108.0,2100-07-07 02:19:00,sputum,gram stain,
+545,10007818,22987108.0,2100-07-13 14:07:00,peritoneal fluid,gram stain,
+546,10015860,25085565.0,2100-10-09 15:35:00,swab,gram stain,
+547,10038999,27189241.0,2100-06-02 08:42:00,bronchial washings,gram stain,
+548,10038999,27189241.0,2100-06-02 08:42:00,bronchoalveolar lavage,gram stain,
+549,10038081,20755971.0,2100-10-13 09:05:00,sputum,gram stain,
+550,10007795,28477357.0,2100-04-28 14:33:00,abscess,gram stain,
+551,10038933,25129047.0,2100-09-23 06:05:00,sputum,gram stain,
+552,10021487,28998349.0,2100-12-07 16:18:00,sputum,gram stain,
+553,10021487,28998349.0,2100-12-15 14:36:00,peritoneal fluid,gram stain,
+554,10021487,28998349.0,2100-12-15 12:00:00,abscess,gram stain,
+555,10021487,28998349.0,2100-12-31 16:27:00,pleural fluid,gram stain,
+556,10002495,24982426.0,2100-06-06 12:53:00,sputum,gram stain,
+557,10027602,28166872.0,2100-12-05 13:35:00,csf;spinal fluid,gram stain,
+558,10001217,24597018.0,2100-12-03 02:37:00,csf;spinal fluid,gram stain,
+559,10009049,22995465.0,2100-06-13 14:56:00,sputum,gram stain,
+560,10007818,22987108.0,2100-06-22 15:09:00,peritoneal fluid,gram stain,
+561,10007818,22987108.0,2100-06-30 12:40:00,peritoneal fluid,gram stain,
+562,10007818,22987108.0,2100-07-08 11:30:00,sputum,gram stain,
+563,10007818,22987108.0,2100-07-13 15:21:00,sputum,gram stain,
+564,10007818,22987108.0,2100-07-14 18:29:00,bronchoalveolar lavage,gram stain,
+565,10020944,29974575.0,2100-03-06 18:00:00,sputum,gram stain,
+566,10020944,29974575.0,2100-03-06 19:20:00,sputum,gram stain,
+567,10038081,20755971.0,2100-10-06 15:55:00,peritoneal fluid,gram stain,
+568,10026255,20437651.0,2100-10-22 13:07:00,sputum,gram stain,
+569,10001217,24597018.0,2100-12-04 12:20:00,abscess,gram stain,
+570,10001217,24597018.0,2100-12-04 12:20:00,abscess,gram stain,
+571,10016742,29281842.0,2100-07-23 03:00:00,sputum,gram stain,
+572,10027445,29163082.0,2100-09-07 16:06:00,sputum,gram stain,
+573,10004733,27411876.0,2100-12-22 13:34:00,sputum,gram stain,
+574,10019777,27738145.0,2100-03-05 07:55:00,sputum,gram stain,
+575,10007795,25135483.0,2100-05-14 11:00:00,foreign body,gram stain,
+576,10007795,25135483.0,2100-05-14 11:00:00,abscess,gram stain,
+577,10027602,28166872.0,2100-11-29 01:49:00,sputum,gram stain,
+578,10007818,22987108.0,2100-07-16 13:00:00,peritoneal fluid,gram stain,
+579,10004720,22081550.0,2100-12-04 12:10:00,sputum,gram stain,
+580,10038999,27189241.0,2100-06-05 08:38:00,pleural fluid,gram stain,
+581,10021487,28998349.0,2100-12-10 08:59:00,sputum,gram stain,
+582,10021487,28998349.0,2100-12-26 21:09:00,peritoneal fluid,gram stain,
+583,10027602,28166872.0,2100-11-30 04:46:00,csf;spinal fluid,gram stain,
+584,10020740,23831430.0,2100-04-11 10:00:00,sputum,gram stain,
+585,10007818,22987108.0,2100-07-11 20:00:00,sputum,gram stain,
+586,10007818,22987108.0,2100-07-11 16:53:00,peritoneal fluid,gram stain,
+587,10016742,28506150.0,2100-08-02 12:30:00,bronchial washings,gram stain,
+588,10016742,28506150.0,2100-08-01 20:30:00,sputum,gram stain,
+589,10004720,22081550.0,2100-12-05 11:10:00,sputum,gram stain,
+590,10029291,22205327.0,2100-02-27 00:00:00,sputum,gram stain,
+591,10038081,20755971.0,2100-10-03 15:39:00,peritoneal fluid,gram stain,
+592,10006053,22942076.0,2100-11-16 06:50:00,peritoneal fluid,gram stain,
+593,10000032,22595853.0,2100-05-27 10:11:00,peritoneal fluid,gram stain,
+594,10035631,22732862.0,2100-11-18 11:47:00,bronchial washings,gram stain,
+595,10035631,22732862.0,2100-11-18 11:45:00,bronchial washings,gram stain,
+596,10021487,28998349.0,2100-12-11 15:05:00,mini-bal,gram stain,
+597,10017492,27672872.0,2100-03-26 18:21:00,csf;spinal fluid,gram stain,
+598,10027445,26275841.0,2100-08-10 11:07:00,sputum,gram stain,
+599,10038999,27189241.0,2100-05-29 22:06:00,"fluid,other",gram stain,
+600,10007795,28477357.0,2100-05-01 20:59:00,urine,urine culture,yeast
+601,10000032,22595853.0,2100-05-27 00:10:00,urine,urine culture,
+602,10021487,28998349.0,2100-12-11 15:44:00,urine,urine culture,
+603,10007928,20338077.0,2100-04-13 02:24:00,urine,urine culture,escherichia coli
+604,10007928,20338077.0,2100-04-13 02:24:00,urine,urine culture,escherichia coli
+605,10007928,20338077.0,2100-04-13 02:24:00,urine,urine culture,escherichia coli
+606,10007928,20338077.0,2100-04-13 02:24:00,urine,urine culture,escherichia coli
+607,10007928,20338077.0,2100-04-13 02:24:00,urine,urine culture,escherichia coli
+608,10007928,20338077.0,2100-04-13 02:24:00,urine,urine culture,escherichia coli
+609,10007928,20338077.0,2100-04-13 02:24:00,urine,urine culture,escherichia coli
+610,10007928,20338077.0,2100-04-13 02:24:00,urine,urine culture,escherichia coli
+611,10007928,20338077.0,2100-04-13 02:24:00,urine,urine culture,escherichia coli
+612,10007928,20338077.0,2100-04-13 02:24:00,urine,urine culture,escherichia coli
+613,10007928,20338077.0,2100-04-13 02:24:00,urine,urine culture,escherichia coli
+614,10007928,20338077.0,2100-04-13 02:24:00,urine,urine culture,escherichia coli
+615,10002495,24982426.0,2100-06-02 02:57:00,urine,urine culture,
+616,10027602,28166872.0,2100-11-29 02:20:00,urine,urine culture,enterococcus faecalis
+617,10027602,28166872.0,2100-11-29 02:20:00,urine,urine culture,enterococcus faecalis
+618,10027602,28166872.0,2100-12-01 17:06:00,urine,urine culture,
+619,10027602,28166872.0,2100-11-29 02:20:00,urine,urine culture,enterococcus faecalis
+620,10027602,28166872.0,2100-11-29 02:20:00,urine,urine culture,enterococcus faecalis
+621,10018328,26706939.0,2100-02-20 02:03:00,urine,urine culture,
+622,10001725,25563031.0,2100-04-16 12:37:00,urine,urine culture,citrobacter freundii complex
+623,10001725,25563031.0,2100-04-16 12:37:00,urine,urine culture,citrobacter freundii complex
+624,10001725,25563031.0,2100-04-16 12:37:00,urine,urine culture,citrobacter freundii complex
+625,10001725,25563031.0,2100-04-16 12:37:00,urine,urine culture,citrobacter freundii complex
+626,10001725,25563031.0,2100-04-16 12:37:00,urine,urine culture,citrobacter freundii complex
+627,10001725,25563031.0,2100-04-16 12:37:00,urine,urine culture,citrobacter freundii complex
+628,10001725,25563031.0,2100-04-16 12:37:00,urine,urine culture,citrobacter freundii complex
+629,10001725,25563031.0,2100-04-16 12:37:00,urine,urine culture,citrobacter freundii complex
+630,10001725,25563031.0,2100-04-16 12:37:00,urine,urine culture,citrobacter freundii complex
+631,10001725,25563031.0,2100-04-16 12:37:00,urine,urine culture,citrobacter freundii complex
+632,10019172,24997044.0,2100-11-19 15:33:00,urine,urine culture,
+633,10004422,21255400.0,2100-01-17 20:09:00,urine,urine culture,
+634,10029291,22205327.0,2100-02-27 00:34:00,urine,urine culture,escherichia coli
+635,10029291,22205327.0,2100-02-27 00:34:00,urine,urine culture,escherichia coli
+636,10029291,22205327.0,2100-02-27 00:34:00,urine,urine culture,escherichia coli
+637,10029291,22205327.0,2100-02-27 00:34:00,urine,urine culture,escherichia coli
+638,10029291,22205327.0,2100-02-27 00:34:00,urine,urine culture,escherichia coli
+639,10029291,22205327.0,2100-02-27 00:34:00,urine,urine culture,escherichia coli
+640,10029291,22205327.0,2100-02-27 00:34:00,urine,urine culture,escherichia coli
+641,10029291,22205327.0,2100-02-27 00:34:00,urine,urine culture,escherichia coli
+642,10029291,22205327.0,2100-02-27 00:34:00,urine,urine culture,escherichia coli
+643,10029291,22205327.0,2100-02-27 00:34:00,urine,urine culture,escherichia coli
+644,10029291,22205327.0,2100-02-27 00:34:00,urine,urine culture,escherichia coli
+645,10029291,22205327.0,2100-02-27 00:34:00,urine,urine culture,escherichia coli
+646,10029291,22205327.0,2100-02-27 00:34:00,urine,urine culture,escherichia coli
+647,10032725,25177949.0,2100-03-04 10:02:00,urine,urine culture,escherichia coli
+648,10032725,25177949.0,2100-03-04 10:02:00,urine,urine culture,escherichia coli
+649,10032725,25177949.0,2100-03-04 10:02:00,urine,urine culture,escherichia coli
+650,10032725,25177949.0,2100-03-04 10:02:00,urine,urine culture,escherichia coli
+651,10032725,25177949.0,2100-03-04 10:02:00,urine,urine culture,escherichia coli
+652,10032725,25177949.0,2100-03-04 10:02:00,urine,urine culture,escherichia coli
+653,10032725,25177949.0,2100-03-04 10:02:00,urine,urine culture,escherichia coli
+654,10032725,25177949.0,2100-03-04 10:02:00,urine,urine culture,escherichia coli
+655,10032725,25177949.0,2100-03-04 10:02:00,urine,urine culture,escherichia coli
+656,10032725,25177949.0,2100-03-04 10:02:00,urine,urine culture,escherichia coli
+657,10032725,25177949.0,2100-03-04 10:02:00,urine,urine culture,escherichia coli
+658,10032725,25177949.0,2100-03-04 10:02:00,urine,urine culture,escherichia coli
+659,10019385,20297618.0,2100-03-07 15:43:00,urine,urine culture,
+660,10004235,24181354.0,2100-03-24 05:37:00,urine,urine culture,
+661,10038933,25129047.0,2100-09-28 11:22:00,urine,urine culture,
+662,10018845,21101111.0,2100-10-29 20:37:00,urine,urine culture,
+663,10015931,28157142.0,2100-12-04 22:07:00,urine,urine culture,
+664,10005817,20626031.0,2100-12-20 02:08:00,urine,urine culture,"staphylococcus, coagulase negative"
+665,10005817,20626031.0,2100-12-20 02:08:00,urine,urine culture,"staphylococcus, coagulase negative"
+666,10005817,20626031.0,2100-12-20 02:08:00,urine,urine culture,"staphylococcus, coagulase negative"
+667,10005817,20626031.0,2100-12-20 02:08:00,urine,urine culture,"staphylococcus, coagulase negative"
+668,10005817,20626031.0,2100-12-20 02:08:00,urine,urine culture,"staphylococcus, coagulase negative"
+669,10005817,20626031.0,2100-12-20 02:08:00,urine,urine culture,"staphylococcus, coagulase negative"
+670,10005817,20626031.0,2100-12-20 02:08:00,urine,urine culture,"staphylococcus, coagulase negative"
+671,10027602,28166872.0,2100-12-01 21:00:00,urine,urine culture,
+672,10027602,28166872.0,2100-12-10 13:04:00,urine,urine culture,
+673,10020740,23831430.0,2100-04-05 10:24:00,urine,urine culture,
+674,10007818,22987108.0,2100-07-11 11:00:00,urine,urine culture,
+675,10019172,21540783.0,2100-10-12 18:18:00,urine,urine culture,
+676,10008454,20291550.0,2100-12-02 16:16:00,urine,urine culture,
+677,10008454,20291550.0,2100-12-02 19:27:00,urine,urine culture,
+678,10038999,27189241.0,2100-05-30 21:46:00,urine,urine culture,
+679,10005909,20199380.0,2100-11-12 02:09:00,urine,urine culture,
+680,10021487,28998349.0,2100-12-13 14:56:00,urine,urine culture,
+681,10005817,20626031.0,2100-12-25 11:51:00,urine,urine culture,
+682,10021487,28998349.0,2100-12-28 23:49:00,urine,urine culture,
+683,10020786,23488445.0,2100-07-01 18:12:00,urine,urine culture,
+684,10036156,28019404.0,2100-07-15 07:48:00,urine,urine culture,
+685,10027602,28166872.0,2100-11-30 04:45:00,urine,urine culture,enterococcus sp.
+686,10027602,28166872.0,2100-11-30 04:45:00,urine,urine culture,enterococcus sp.
+687,10027602,28166872.0,2100-11-30 04:45:00,urine,urine culture,enterococcus sp.
+688,10027602,28166872.0,2100-11-30 04:45:00,urine,urine culture,enterococcus sp.
+689,10027602,28166872.0,2100-11-30 04:45:00,urine,urine culture,enterococcus sp.
+690,10027602,28166872.0,2100-12-03 01:04:00,urine,urine culture,
+691,10027602,28166872.0,2100-11-30 04:45:00,urine,urine culture,enterococcus sp.
+692,10027602,28166872.0,2100-11-30 04:45:00,urine,urine culture,enterococcus sp.
+693,10021118,24490144.0,2100-12-02 11:35:00,urine,urine culture,
+694,10018328,23786647.0,2100-05-07 23:42:00,urine,urine culture,
+695,10027445,26275841.0,2100-08-11 10:37:00,urine,urine culture,
+696,10014354,22741225.0,2100-10-20 03:13:00,urine,urine culture,
+697,10008454,20291550.0,2100-12-09 03:05:00,urine,urine culture,enterococcus sp.
+698,10008454,20291550.0,2100-12-09 03:05:00,urine,urine culture,enterococcus sp.
+699,10008454,20291550.0,2100-12-09 03:05:00,urine,urine culture,enterococcus sp.
+700,10008454,20291550.0,2100-12-09 03:05:00,urine,urine culture,enterococcus sp.
+701,10037975,27617929.0,2100-02-07 21:32:00,urine,urine culture,
+702,10031757,28477280.0,2100-10-27 18:00:00,urine,urine culture,yeast
+703,10009049,22995465.0,2100-06-13 16:00:00,urine,urine culture,
+704,10007818,22987108.0,2100-07-06 23:20:00,urine,urine culture,gram negative rod(s)
+705,10019172,21540783.0,2100-10-14 11:31:00,urine,urine culture,
+706,10038999,27189241.0,2100-06-02 14:24:00,urine,urine culture,
+707,10000032,22841357.0,2100-07-16 22:39:00,urine,urine culture,
+708,10021487,28998349.0,2100-12-07 17:04:00,urine,urine culture,
+709,10038992,22797747.0,2100-11-23 21:30:00,urine,urine culture,
+710,10016150,29374560.0,2100-05-21 00:22:00,urine,urine culture,
+711,10009049,22995465.0,2100-06-14 21:49:00,urine,urine culture,
+712,10007818,22987108.0,2100-06-30 16:48:00,urine,urine culture,
+713,10007818,22987108.0,2100-07-04 00:55:00,urine,urine culture,serratia marcescens
+714,10007818,22987108.0,2100-07-04 00:55:00,urine,urine culture,serratia marcescens
+715,10007818,22987108.0,2100-07-04 00:55:00,urine,urine culture,serratia marcescens
+716,10007818,22987108.0,2100-07-04 00:55:00,urine,urine culture,serratia marcescens
+717,10007818,22987108.0,2100-07-04 00:55:00,urine,urine culture,serratia marcescens
+718,10007818,22987108.0,2100-07-04 00:55:00,urine,urine culture,serratia marcescens
+719,10007818,22987108.0,2100-07-04 00:55:00,urine,urine culture,serratia marcescens
+720,10007818,22987108.0,2100-07-04 00:55:00,urine,urine culture,serratia marcescens
+721,10007818,22987108.0,2100-07-04 00:55:00,urine,urine culture,serratia marcescens
+722,10019777,27738145.0,2100-03-12 12:22:00,urine,urine culture,
+723,10022041,28909879.0,2100-06-08 21:00:00,urine,urine culture,
+724,10037861,24256866.0,2100-10-13 03:48:00,urine,urine culture,pseudomonas aeruginosa
+725,10037861,24256866.0,2100-10-13 03:48:00,urine,urine culture,pseudomonas aeruginosa
+726,10037861,24256866.0,2100-10-13 03:48:00,urine,urine culture,pseudomonas aeruginosa
+727,10037861,24256866.0,2100-10-13 03:48:00,urine,urine culture,pseudomonas aeruginosa
+728,10037861,24256866.0,2100-10-13 03:48:00,urine,urine culture,pseudomonas aeruginosa
+729,10037861,24256866.0,2100-10-13 03:48:00,urine,urine culture,pseudomonas aeruginosa
+730,10037861,24256866.0,2100-10-13 03:48:00,urine,urine culture,pseudomonas aeruginosa
+731,10035185,22580999.0,2100-05-17 14:02:00,urine,urine culture,
+732,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,escherichia coli
+733,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,enterococcus sp.
+734,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,escherichia coli
+735,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,escherichia coli
+736,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,enterococcus sp.
+737,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,escherichia coli
+738,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,enterococcus sp.
+739,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,escherichia coli
+740,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,escherichia coli
+741,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,enterococcus sp.
+742,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,escherichia coli
+743,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,escherichia coli
+744,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,escherichia coli
+745,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,escherichia coli
+746,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,escherichia coli
+747,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,enterococcus sp.
+748,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,enterococcus sp.
+749,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,enterococcus sp.
+750,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,escherichia coli
+751,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,escherichia coli
+752,10031757,28477280.0,2100-10-24 20:37:00,urine,urine culture,enterococcus sp.
+753,10031757,28477280.0,2100-10-28 21:37:00,urine,urine culture,yeast
+754,10020740,23831430.0,2100-03-23 22:52:00,urine,urine culture,
+755,10017492,27672872.0,2100-03-23 02:11:00,urine,urine culture,
+756,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+757,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+758,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+759,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+760,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+761,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+762,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+763,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+764,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+765,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+766,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+767,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+768,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+769,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+770,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+771,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+772,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+773,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+774,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+775,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+776,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+777,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+778,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+779,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+780,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+781,10016150,29374560.0,2100-05-25 19:02:00,urine,urine culture,escherichia coli
+782,10019172,24997044.0,2100-11-23 11:09:00,urine,urine culture,gram positive bacteria
+783,10019172,24997044.0,2100-11-23 11:09:00,urine,urine culture,presumptive gardnerella vaginalis
+784,10004733,27411876.0,2100-12-22 14:13:00,urine,urine culture,
+785,10004422,21255400.0,2100-01-22 16:42:00,urine,urine culture,
+786,10032725,25177949.0,2100-03-14 03:00:00,urine,urine culture,
+787,10038081,20755971.0,2100-10-01 00:14:00,urine,urine culture,yeast
+788,10038081,20755971.0,2100-10-07 01:28:00,urine,urine culture,
+789,10004235,22187210.0,2100-07-15 00:05:00,urine,urine culture,
+790,10038933,25129047.0,2100-10-03 13:33:00,urine,urine culture,
+791,10035631,29462354.0,2100-10-08 16:35:00,urine,urine culture,
+792,10037975,27617929.0,2100-02-11 21:00:00,urine,urine culture,
+793,10020640,27984218.0,2100-02-26 02:22:00,urine,urine culture,yeast
+794,10021312,28829452.0,2100-09-15 23:27:00,urine,urine culture,yeast
+795,10022017,22342963.0,2100-10-05 08:16:00,urine,urine culture,
+796,10009628,25926192.0,2100-10-04 10:58:00,urine,urine culture,
+797,10020740,23831430.0,2100-04-10 08:43:00,urine,urine culture,
+798,10020740,23831430.0,2100-04-17 11:21:00,urine,urine culture,
+799,10004422,21255400.0,2100-01-22 22:23:00,urine,urine culture,
+800,10019777,27738145.0,2100-03-06 03:54:00,urine,urine culture,
+801,10018423,29366372.0,2100-05-20 21:50:00,urine,urine culture,
+802,10037861,24256866.0,2100-10-14 15:24:00,urine,urine culture,pseudomonas aeruginosa
+803,10037861,24256866.0,2100-10-14 15:24:00,urine,urine culture,pseudomonas aeruginosa
+804,10037861,24256866.0,2100-10-14 15:24:00,urine,urine culture,pseudomonas aeruginosa
+805,10037861,24256866.0,2100-10-14 15:24:00,urine,urine culture,pseudomonas aeruginosa
+806,10037861,24256866.0,2100-10-14 15:24:00,urine,urine culture,pseudomonas aeruginosa
+807,10037861,24256866.0,2100-10-14 15:24:00,urine,urine culture,pseudomonas aeruginosa
+808,10037861,24256866.0,2100-10-14 15:24:00,urine,urine culture,pseudomonas aeruginosa
+809,10012552,27089790.0,2100-04-01 18:46:00,urine,urine culture,
+810,10007795,28477357.0,2100-04-23 14:32:00,urine,urine culture,
+811,10021487,28998349.0,2100-12-10 08:00:00,urine,urine culture,
+812,10021487,28998349.0,2100-12-18 17:01:00,urine,urine culture,
+813,10023239,29295881.0,2100-07-01 08:46:00,urine,urine culture,
+814,10031757,28477280.0,2100-10-30 19:31:00,urine,urine culture,yeast
+815,10020740,23831430.0,2100-04-10 21:25:00,urine,urine culture,
+816,10020740,23831430.0,2100-04-11 09:56:00,urine,urine culture,
+817,10020740,23831430.0,2100-04-18 13:58:00,urine,urine culture,
+818,10004733,27411876.0,2100-12-24 04:00:00,urine,urine culture,
+819,10006053,22942076.0,2100-11-16 10:09:00,urine,urine culture,
+820,10007795,25135483.0,2100-05-14 11:00:00,abscess,wound culture,"candida albicans, presumptive identification"
+821,10007795,25135483.0,2100-05-14 11:00:00,foreign body,wound culture,"candida albicans, presumptive identification"
+822,10007795,20285402.0,2100-08-14 21:25:00,catheter tip-iv,wound culture,
+823,10035631,22732862.0,2100-11-17 15:05:00,catheter tip-iv,wound culture,
+824,10016742,29281842.0,2100-07-25 16:40:00,swab,wound culture,yeast
+825,10016742,29281842.0,2100-07-25 17:00:00,swab,wound culture,corynebacterium species (diphtheroids)
+826,10016742,29281842.0,2100-07-25 16:40:00,swab,wound culture,mixed bacterial flora
+827,10015860,25085565.0,2100-10-09 15:35:00,swab,wound culture,
+828,10015860,25085565.0,2100-10-07 10:20:00,swab,wound culture,
+829,10021487,28998349.0,2100-12-14 12:17:00,catheter tip-iv,wound culture,
+830,10021487,28998349.0,2100-12-14 14:22:00,catheter tip-iv,wound culture,
+831,10021487,28998349.0,2100-12-23 17:13:00,catheter tip-iv,wound culture,
+832,10021487,28998349.0,2100-12-15 12:00:00,abscess,wound culture,gram positive rods
+833,10021487,28998349.0,2100-12-15 12:00:00,abscess,wound culture,gram positive bacteria
+834,10021487,28998349.0,2100-12-15 12:00:00,abscess,wound culture,gram negative rod(s)
+835,10001217,24597018.0,2100-12-04 12:20:00,abscess,wound culture,streptococcus anginosus (milleri) group
+836,10001217,24597018.0,2100-12-04 12:20:00,abscess,wound culture,streptococcus anginosus (milleri) group
+837,10001217,24597018.0,2100-12-04 12:20:00,abscess,wound culture,streptococcus anginosus (milleri) group
+838,10001217,24597018.0,2100-12-04 12:20:00,abscess,wound culture,streptococcus anginosus (milleri) group
+839,10001217,24597018.0,2100-12-04 12:20:00,abscess,wound culture,streptococcus anginosus (milleri) group
+840,10035631,22732862.0,2100-11-18 11:45:00,bronchial washings,cytomegalovirus early antigen test (shell vial method),
+841,10021487,28998349.0,2100-12-11 15:05:00,mini-bal,cytomegalovirus early antigen test (shell vial method),
+842,10038999,27189241.0,2100-05-29 22:06:00,"fluid,other",cytomegalovirus early antigen test (shell vial method),
+843,10021487,28998349.0,2100-12-10 08:59:00,sputum,respiratory culture,
+844,10029291,22205327.0,2100-02-27 00:00:00,sputum,respiratory culture,yeast
+845,10035631,22732862.0,2100-11-18 11:47:00,bronchial washings,respiratory culture,
+846,10035631,22732862.0,2100-11-18 11:45:00,bronchial washings,respiratory culture,
+847,10016742,28506150.0,2100-08-01 20:30:00,sputum,respiratory culture,acinetobacter baumannii
+848,10016742,28506150.0,2100-08-01 20:30:00,sputum,respiratory culture,acinetobacter baumannii
+849,10016742,28506150.0,2100-08-01 20:30:00,sputum,respiratory culture,acinetobacter baumannii
+850,10016742,28506150.0,2100-08-01 20:30:00,sputum,respiratory culture,acinetobacter baumannii
+851,10016742,28506150.0,2100-08-01 20:30:00,sputum,respiratory culture,acinetobacter baumannii
+852,10016742,28506150.0,2100-08-01 20:30:00,sputum,respiratory culture,acinetobacter baumannii
+853,10016742,28506150.0,2100-08-01 20:30:00,sputum,respiratory culture,acinetobacter baumannii
+854,10016742,28506150.0,2100-08-01 20:30:00,sputum,respiratory culture,acinetobacter baumannii
+855,10016742,28506150.0,2100-08-01 20:30:00,sputum,respiratory culture,acinetobacter baumannii
+856,10016742,28506150.0,2100-08-01 20:30:00,sputum,respiratory culture,stenotrophomonas maltophilia
+857,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,proteus mirabilis
+858,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,proteus mirabilis
+859,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,proteus mirabilis
+860,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,staph aureus coag +
+861,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,proteus mirabilis
+862,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,staph aureus coag +
+863,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,staph aureus coag +
+864,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,proteus mirabilis
+865,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,proteus mirabilis
+866,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,staph aureus coag +
+867,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,proteus mirabilis
+868,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,proteus mirabilis
+869,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,staph aureus coag +
+870,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,staph aureus coag +
+871,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,proteus mirabilis
+872,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,proteus mirabilis
+873,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,staph aureus coag +
+874,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,proteus mirabilis
+875,10004733,27411876.0,2100-12-22 13:34:00,sputum,respiratory culture,proteus mirabilis
+876,10021487,28998349.0,2100-12-11 15:05:00,mini-bal,respiratory culture,staph aureus coag +
+877,10021487,28998349.0,2100-12-11 15:05:00,mini-bal,respiratory culture,staph aureus coag +
+878,10021487,28998349.0,2100-12-11 15:05:00,mini-bal,respiratory culture,staph aureus coag +
+879,10021487,28998349.0,2100-12-11 15:05:00,mini-bal,respiratory culture,staph aureus coag +
+880,10021487,28998349.0,2100-12-11 15:05:00,mini-bal,respiratory culture,staph aureus coag +
+881,10021487,28998349.0,2100-12-11 15:05:00,mini-bal,respiratory culture,staph aureus coag +
+882,10020786,23488445.0,2100-07-02 11:08:00,sputum,respiratory culture,
+883,10021312,28829452.0,2100-09-19 15:50:00,bronchial washings,respiratory culture,staph aureus coag +
+884,10027602,28166872.0,2100-12-01 21:00:00,sputum,respiratory culture,staph aureus coag +
+885,10027602,28166872.0,2100-12-01 21:00:00,sputum,respiratory culture,staph aureus coag +
+886,10027602,28166872.0,2100-12-01 21:00:00,sputum,respiratory culture,staph aureus coag +
+887,10027602,28166872.0,2100-12-01 21:00:00,sputum,respiratory culture,staph aureus coag +
+888,10027602,28166872.0,2100-12-01 21:00:00,sputum,respiratory culture,staph aureus coag +
+889,10027602,28166872.0,2100-12-01 21:00:00,sputum,respiratory culture,staph aureus coag +
+890,10027602,28166872.0,2100-12-02 14:50:00,mini-bal,respiratory culture,staph aureus coag +
+891,10027602,28166872.0,2100-12-01 21:00:00,sputum,respiratory culture,staph aureus coag +
+892,10027602,28166872.0,2100-12-01 21:00:00,sputum,respiratory culture,staph aureus coag +
+893,10027602,28166872.0,2100-12-01 21:00:00,sputum,respiratory culture,staph aureus coag +
+894,10020740,23831430.0,2100-04-11 10:00:00,sputum,respiratory culture,staph aureus coag +
+895,10020740,23831430.0,2100-04-11 10:00:00,sputum,respiratory culture,staph aureus coag +
+896,10020740,23831430.0,2100-04-11 10:00:00,sputum,respiratory culture,staph aureus coag +
+897,10020740,23831430.0,2100-04-11 10:00:00,sputum,respiratory culture,staph aureus coag +
+898,10020740,23831430.0,2100-04-11 10:00:00,sputum,respiratory culture,staph aureus coag +
+899,10020740,23831430.0,2100-04-11 10:00:00,sputum,respiratory culture,staph aureus coag +
+900,10020740,23831430.0,2100-04-11 10:00:00,sputum,respiratory culture,staph aureus coag +
+901,10020740,23831430.0,2100-04-11 10:00:00,sputum,respiratory culture,staph aureus coag +
+902,10020740,23831430.0,2100-04-11 10:00:00,sputum,respiratory culture,staph aureus coag +
+903,10027445,26275841.0,2100-08-10 11:07:00,sputum,respiratory culture,yeast
+904,10020944,29974575.0,2100-03-06 19:20:00,sputum,respiratory culture,yeast
+905,10020944,29974575.0,2100-03-06 19:20:00,sputum,respiratory culture,klebsiella pneumoniae
+906,10038999,27189241.0,2100-05-30 21:46:00,sputum,respiratory culture,
+907,10038933,25129047.0,2100-09-23 06:05:00,sputum,respiratory culture,
+908,10021487,28998349.0,2100-12-13 14:50:00,bronchoalveolar lavage,respiratory culture,staph aureus coag +
+909,10021312,25020332.0,2100-08-19 16:22:00,bronchial washings,respiratory culture,staph aureus coag +
+910,10020944,29974575.0,2100-03-06 18:00:00,sputum,respiratory culture,klebsiella pneumoniae
+911,10020944,29974575.0,2100-03-06 18:00:00,sputum,respiratory culture,klebsiella pneumoniae
+912,10020944,29974575.0,2100-03-06 18:00:00,sputum,respiratory culture,klebsiella pneumoniae
+913,10020944,29974575.0,2100-03-06 18:00:00,sputum,respiratory culture,klebsiella pneumoniae
+914,10020944,29974575.0,2100-03-06 18:00:00,sputum,respiratory culture,klebsiella pneumoniae
+915,10020944,29974575.0,2100-03-06 18:00:00,sputum,respiratory culture,klebsiella pneumoniae
+916,10020944,29974575.0,2100-03-06 18:00:00,sputum,respiratory culture,klebsiella pneumoniae
+917,10020944,29974575.0,2100-03-06 18:00:00,sputum,respiratory culture,klebsiella pneumoniae
+918,10020944,29974575.0,2100-03-06 18:00:00,sputum,respiratory culture,yeast
+919,10020944,29974575.0,2100-03-06 18:00:00,sputum,respiratory culture,klebsiella pneumoniae
+920,10020944,29974575.0,2100-03-06 18:00:00,sputum,respiratory culture,klebsiella pneumoniae
+921,10020944,29974575.0,2100-03-06 18:00:00,sputum,respiratory culture,klebsiella pneumoniae
+922,10020944,29974575.0,2100-03-06 18:00:00,sputum,respiratory culture,klebsiella pneumoniae
+923,10004235,24181354.0,2100-03-21 12:33:00,sputum,respiratory culture,
+924,10027445,26275841.0,2100-08-11 12:05:00,sputum,respiratory culture,yeast
+925,10027445,29163082.0,2100-09-07 16:06:00,sputum,respiratory culture,
+926,10038999,27189241.0,2100-06-02 08:42:00,bronchoalveolar lavage,respiratory culture,
+927,10038999,27189241.0,2100-06-02 08:42:00,bronchial washings,respiratory culture,
+928,10038081,20755971.0,2100-10-13 09:05:00,sputum,respiratory culture,yeast
+929,10021487,28998349.0,2100-12-07 16:18:00,sputum,respiratory culture,
+930,10037975,27617929.0,2100-02-07 22:04:00,sputum,respiratory culture,klebsiella pneumoniae
+931,10037975,27617929.0,2100-02-07 22:04:00,sputum,respiratory culture,klebsiella pneumoniae
+932,10037975,27617929.0,2100-02-07 22:04:00,sputum,respiratory culture,klebsiella pneumoniae
+933,10037975,27617929.0,2100-02-07 22:04:00,sputum,respiratory culture,klebsiella pneumoniae
+934,10037975,27617929.0,2100-02-07 22:04:00,sputum,respiratory culture,klebsiella pneumoniae
+935,10037975,27617929.0,2100-02-07 22:04:00,sputum,respiratory culture,klebsiella pneumoniae
+936,10037975,27617929.0,2100-02-07 22:04:00,sputum,respiratory culture,klebsiella pneumoniae
+937,10037975,27617929.0,2100-02-07 22:04:00,sputum,respiratory culture,klebsiella pneumoniae
+938,10037975,27617929.0,2100-02-07 22:04:00,sputum,respiratory culture,klebsiella pneumoniae
+939,10037975,27617929.0,2100-02-07 22:04:00,sputum,respiratory culture,klebsiella pneumoniae
+940,10037975,27617929.0,2100-02-07 22:04:00,sputum,respiratory culture,klebsiella pneumoniae
+941,10009049,22995465.0,2100-06-13 14:56:00,sputum,respiratory culture,yeast
+942,10007818,22987108.0,2100-07-07 02:19:00,sputum,respiratory culture,staph aureus coag +
+943,10007818,22987108.0,2100-07-07 02:19:00,sputum,respiratory culture,yeast
+944,10007818,22987108.0,2100-07-07 02:19:00,sputum,respiratory culture,staph aureus coag +
+945,10007818,22987108.0,2100-07-07 02:19:00,sputum,respiratory culture,staph aureus coag +
+946,10007818,22987108.0,2100-07-07 02:19:00,sputum,respiratory culture,staph aureus coag +
+947,10007818,22987108.0,2100-07-07 02:19:00,sputum,respiratory culture,staph aureus coag +
+948,10007818,22987108.0,2100-07-07 02:19:00,sputum,respiratory culture,staph aureus coag +
+949,10007818,22987108.0,2100-07-07 02:19:00,sputum,respiratory culture,gram negative rod(s)
+950,10007818,22987108.0,2100-07-07 02:19:00,sputum,respiratory culture,staph aureus coag +
+951,10007818,22987108.0,2100-07-08 11:30:00,sputum,respiratory culture,yeast
+952,10007818,22987108.0,2100-07-13 15:21:00,sputum,respiratory culture,yeast
+953,10007818,22987108.0,2100-07-14 18:29:00,bronchoalveolar lavage,respiratory culture,yeast
+954,10004720,22081550.0,2100-12-04 12:10:00,sputum,respiratory culture,
+955,10026255,20437651.0,2100-10-22 13:07:00,sputum,respiratory culture,
+956,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+957,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+958,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+959,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+960,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+961,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+962,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+963,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+964,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+965,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+966,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+967,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+968,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+969,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+970,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+971,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+972,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+973,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+974,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+975,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+976,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,yeast
+977,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+978,10002495,24982426.0,2100-06-06 12:53:00,sputum,respiratory culture,klebsiella pneumoniae
+979,10007818,22987108.0,2100-07-11 20:00:00,sputum,respiratory culture,
+980,10016742,28506150.0,2100-08-02 12:30:00,bronchial washings,respiratory culture,acinetobacter baumannii complex
+981,10016742,28506150.0,2100-08-02 12:30:00,bronchial washings,respiratory culture,pseudomonas aeruginosa
+982,10016742,28506150.0,2100-08-02 12:30:00,bronchial washings,respiratory culture,pseudomonas aeruginosa
+983,10016742,28506150.0,2100-08-02 12:30:00,bronchial washings,respiratory culture,pseudomonas aeruginosa
+984,10016742,28506150.0,2100-08-02 12:30:00,bronchial washings,respiratory culture,pseudomonas aeruginosa
+985,10016742,28506150.0,2100-08-02 12:30:00,bronchial washings,respiratory culture,pseudomonas aeruginosa
+986,10016742,28506150.0,2100-08-02 12:30:00,bronchial washings,respiratory culture,pseudomonas aeruginosa
+987,10016742,28506150.0,2100-08-02 12:30:00,bronchial washings,respiratory culture,stenotrophomonas maltophilia
+988,10016742,28506150.0,2100-08-02 12:30:00,bronchial washings,respiratory culture,pseudomonas aeruginosa
+989,10004720,22081550.0,2100-12-05 11:10:00,sputum,respiratory culture,
+990,10027602,28166872.0,2100-11-29 01:49:00,sputum,respiratory culture,gram negative rod(s)
+991,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,gram negative rod #3
+992,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,pseudomonas aeruginosa
+993,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,pseudomonas aeruginosa
+994,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,pseudomonas aeruginosa
+995,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,pseudomonas aeruginosa
+996,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,pseudomonas aeruginosa
+997,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,pseudomonas aeruginosa
+998,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,pseudomonas aeruginosa
+999,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,pseudomonas aeruginosa
+1000,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,pseudomonas aeruginosa
+1001,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,pseudomonas aeruginosa
+1002,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,pseudomonas aeruginosa
+1003,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,pseudomonas aeruginosa
+1004,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,pseudomonas aeruginosa
+1005,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,pseudomonas aeruginosa
+1006,10016742,29281842.0,2100-07-23 03:00:00,sputum,respiratory culture,pseudomonas aeruginosa
+1007,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,escherichia coli
+1008,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,staph aureus coag +
+1009,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,escherichia coli
+1010,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,staph aureus coag +
+1011,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,escherichia coli
+1012,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,staph aureus coag +
+1013,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,escherichia coli
+1014,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,escherichia coli
+1015,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,escherichia coli
+1016,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,escherichia coli
+1017,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,staph aureus coag +
+1018,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,escherichia coli
+1019,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,escherichia coli
+1020,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,staph aureus coag +
+1021,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,escherichia coli
+1022,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,staph aureus coag +
+1023,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,escherichia coli
+1024,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,escherichia coli
+1025,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,escherichia coli
+1026,10019777,27738145.0,2100-03-05 07:55:00,sputum,respiratory culture,staph aureus coag +
+1027,10020786,23488445.0,2100-07-02 11:08:00,sputum,legionella culture,
+1028,10038999,27189241.0,2100-06-02 08:42:00,bronchoalveolar lavage,legionella culture,
+1029,10038999,27189241.0,2100-06-02 08:42:00,bronchial washings,legionella culture,
+1030,10009049,22995465.0,2100-06-13 14:56:00,sputum,legionella culture,
+1031,10035631,22732862.0,2100-11-18 11:47:00,bronchial washings,legionella culture,
+1032,10035631,22732862.0,2100-11-18 11:45:00,bronchial washings,legionella culture,
+1033,10021487,28998349.0,2100-12-11 15:05:00,mini-bal,legionella culture,
+1034,10007928,20338077.0,2100-04-15 15:24:00,blood culture,brucella blood culture,
+1035,10020740,23831430.0,2100-03-28 05:49:00,stool,fecal culture - r/o vibrio,
+1036,10035631,29462354.0,2100-10-07 12:57:00,stool,fecal culture - r/o vibrio,
+1037,10037975,27617929.0,2100-02-11 11:03:00,stool,fecal culture - r/o vibrio,
+1038,10035631,29462354.0,2100-10-07 12:57:00,stool,fecal culture - r/o yersinia,
+1039,10020740,23831430.0,2100-03-28 05:49:00,stool,fecal culture - r/o yersinia,
+1040,10037975,27617929.0,2100-02-11 11:03:00,stool,fecal culture - r/o yersinia,
+1041,10020740,23831430.0,2100-03-28 05:49:00,stool,fecal culture - r/o e.coli 0157:h7,
+1042,10035631,29462354.0,2100-10-07 12:57:00,stool,fecal culture - r/o e.coli 0157:h7,
+1043,10007928,20338077.0,2100-04-16 21:30:00,stool,fecal culture - r/o e.coli 0157:h7,
+1044,10035631,22732862.0,2100-11-17 16:30:00,serology/blood,varicella-zoster igg serology,
+1045,10038081,20755971.0,2100-10-01 13:08:00,serology/blood,varicella-zoster igg serology,
+1046,10007818,22987108.0,2100-07-14 18:29:00,bronchoalveolar lavage,nocardia culture,
+1047,10038999,27189241.0,2100-06-02 08:42:00,bronchial washings,nocardia culture,
+1048,10038999,27189241.0,2100-06-02 08:42:00,bronchoalveolar lavage,nocardia culture,
+1049,10038081,20755971.0,2100-10-01 13:08:00,blood (ebv),epstein-barr virus vca-igg ab,
+1050,10035631,29462354.0,2100-09-20 20:30:00,blood (ebv),epstein-barr virus vca-igg ab,
+1051,10007818,22987108.0,2100-06-23 04:30:00,blood (ebv),epstein-barr virus vca-igg ab,
+1052,10035631,22732862.0,2100-11-17 16:30:00,blood (ebv),epstein-barr virus vca-igg ab,
+1053,10021487,28998349.0,2100-12-11 15:05:00,rapid respiratory viral screen & culture,respiratory viral antigen screen,
+1054,10038999,27189241.0,2100-06-02 08:42:00,rapid respiratory viral screen & culture,respiratory viral antigen screen,
+1055,10009049,22995465.0,2100-06-13 17:00:00,rapid respiratory viral screen & culture,respiratory viral antigen screen,
+1056,10035631,29462354.0,2100-10-14 11:15:00,rapid respiratory viral screen & culture,respiratory viral antigen screen,
+1057,10007818,22987108.0,2100-07-14 18:29:00,rapid respiratory viral screen & culture,respiratory viral antigen screen,
+1058,10020640,27984218.0,2100-02-26 05:33:00,rapid respiratory viral screen & culture,respiratory viral antigen screen,
+1059,10016742,28506150.0,2100-08-02 12:30:00,rapid respiratory viral screen & culture,respiratory viral antigen screen,

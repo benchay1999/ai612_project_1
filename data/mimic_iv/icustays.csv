@@ -1,0 +1,89 @@
+row_id,subject_id,hadm_id,stay_id,first_careunit,last_careunit,intime,outtime
+0,10018328,23786647,31269608,neuro stepdown,neuro stepdown,2100-05-07 23:03:44,2100-05-15 15:55:21
+1,10020187,24104168,37509585,neuro surgical intensive care unit (neuro sicu),neuro stepdown,2100-02-01 04:56:00,2100-02-06 15:47:50
+2,10020740,25826145,32145159,trauma sicu (tsicu),trauma sicu (tsicu),2100-06-15 20:12:32,2100-06-16 21:05:58
+3,10019568,28710730,30876334,trauma sicu (tsicu),trauma sicu (tsicu),2100-02-03 22:51:00,2100-02-04 18:25:12
+4,10018081,21027282,37293400,trauma sicu (tsicu),trauma sicu (tsicu),2100-12-26 17:10:00,
+5,10021487,28998349,38197705,trauma sicu (tsicu),trauma sicu (tsicu),2100-12-07 01:02:00,2100-12-22 17:34:03
+6,10003046,26048429,35514836,trauma sicu (tsicu),trauma sicu (tsicu),2100-01-15 15:57:15,2100-01-17 15:19:56
+7,10018501,28479513,35446858,trauma sicu (tsicu),trauma sicu (tsicu),2100-08-10 00:01:00,2100-08-11 22:36:21
+8,10008454,20291550,31959184,trauma sicu (tsicu),trauma sicu (tsicu),2100-12-02 17:11:36,2100-12-07 16:48:24
+9,10026354,24547356,36091287,trauma sicu (tsicu),trauma sicu (tsicu),2100-10-30 08:33:32,2100-10-31 17:50:50
+10,10029291,22205327,36059427,coronary care unit (ccu),coronary care unit (ccu),2100-02-25 04:13:00,2100-03-03 12:03:56
+11,10027445,29163082,36084484,coronary care unit (ccu),coronary care unit (ccu),2100-09-09 13:20:56,2100-09-10 18:19:36
+12,10010471,29842315,32119961,coronary care unit (ccu),coronary care unit (ccu),2100-12-15 20:33:00,2100-12-20 18:19:18
+13,10002495,24982426,36753294,coronary care unit (ccu),coronary care unit (ccu),2100-06-01 20:18:01,2100-06-06 22:24:02
+14,10031404,21606243,35544374,coronary care unit (ccu),coronary care unit (ccu),2100-08-07 18:47:42,2100-08-08 23:45:02
+15,10015931,28157142,39544395,coronary care unit (ccu),coronary care unit (ccu),2100-12-08 14:24:52,2100-12-09 19:18:13
+16,10038999,27189241,39711498,coronary care unit (ccu),coronary care unit (ccu),2100-05-29 21:50:33,2100-06-07 17:55:04
+17,10029291,22205327,35146796,coronary care unit (ccu),coronary care unit (ccu),2100-03-03 12:12:32,2100-03-09 23:36:14
+18,10004235,24181354,34100191,coronary care unit (ccu),medical intensive care unit (micu),2100-03-19 17:07:00,2100-03-24 15:58:02
+19,10007928,20338077,35128235,medical intensive care unit (micu),medical intensive care unit (micu),2100-04-13 00:25:00,2100-04-15 21:02:55
+20,10020944,29974575,30757476,medical intensive care unit (micu),medical intensive care unit (micu),2100-03-06 16:40:00,2100-03-15 18:30:38
+21,10026406,25260176,30864406,medical intensive care unit (micu),medical intensive care unit (micu),2100-01-12 02:37:19,2100-01-12 14:11:03
+22,10020740,23831430,35889503,medical intensive care unit (micu),medical intensive care unit (micu),2100-04-06 18:22:56,2100-04-09 22:20:47
+23,10036156,28019404,38587181,medical intensive care unit (micu),medical intensive care unit (micu),2100-07-15 04:52:37,2100-07-16 14:18:55
+24,10006053,22942076,34617352,medical intensive care unit (micu),medical intensive care unit (micu),2100-11-16 00:19:12,2100-11-17 18:21:10
+25,10006053,22942076,32895909,medical intensive care unit (micu),medical intensive care unit (micu),2100-11-15 23:40:00,2100-11-16 00:14:10
+26,10000032,29079034,39553978,medical intensive care unit (micu),medical intensive care unit (micu),2100-08-12 14:00:00,2100-08-12 23:50:47
+27,10019777,27738145,34578020,medical intensive care unit (micu),medical intensive care unit (micu),2100-03-03 20:34:00,2100-03-10 23:38:57
+28,10021312,28829452,37507305,medical intensive care unit (micu),medical intensive care unit (micu),2100-09-17 10:19:17,2100-09-18 12:43:00
+29,10007818,22987108,32359580,medical intensive care unit (micu),medical intensive care unit (micu),2100-07-03 11:46:29,2100-07-24 00:27:47
+30,10020740,23831430,31077365,medical intensive care unit (micu),medical intensive care unit (micu),2100-04-11 07:57:10,2100-04-16 10:58:43
+31,10021938,23112364,39492446,medical intensive care unit (micu),medical intensive care unit (micu),2100-11-02 02:52:00,2100-11-03 18:03:28
+32,10016742,28506150,32314488,medical intensive care unit (micu),medical intensive care unit (micu),2100-08-01 08:16:00,2100-08-04 14:41:31
+33,10019917,22585261,34324099,medical intensive care unit (micu),medical intensive care unit (micu),2100-01-27 23:26:32,2100-01-29 07:09:31
+34,10037975,27617929,39061571,medical intensive care unit (micu),medical intensive care unit (micu),2100-02-07 19:12:12,2100-02-12 16:16:52
+35,10021938,27154822,33083787,medical intensive care unit (micu),medical intensive care unit (micu),2100-11-14 11:35:00,2100-11-15 20:53:57
+36,10027445,26275841,34499716,medical intensive care unit (micu),medical intensive care unit (micu),2100-08-10 01:41:00,2100-08-13 21:05:58
+37,10015860,25085565,32496174,medical intensive care unit (micu),medical intensive care unit (micu),2100-10-06 17:15:00,2100-10-07 11:17:40
+38,10016742,27568122,30425410,medical intensive care unit (micu),medical intensive care unit (micu),2100-08-10 08:19:00,2100-08-13 16:42:43
+39,10029484,20764029,35396193,medical intensive care unit (micu),medical intensive care unit (micu),2100-11-23 05:23:00,2100-11-23 21:04:55
+40,10038081,20755971,38430513,medical intensive care unit (micu),medical intensive care unit (micu),2100-10-12 10:15:25,2100-10-16 03:01:17
+41,10004720,22081550,35009126,surgical intensive care unit (sicu),medical intensive care unit (micu),2100-12-03 19:55:00,2100-12-08 21:15:55
+42,10008287,22168393,33348260,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-10-09 20:59:43,2100-10-11 00:34:15
+43,10001217,24597018,37067082,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-12-04 19:18:02,2100-12-05 22:08:00
+44,10022041,28909879,30913302,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-06-08 18:39:00,2100-06-10 16:04:02
+45,10016810,20973395,35436337,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-07-07 02:16:00,2100-07-09 14:00:02
+46,10024043,24717014,32374504,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-04-15 22:05:00,2100-04-18 14:36:11
+47,10018845,21101111,36427705,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-10-29 04:09:00,2100-10-30 15:55:53
+48,10016150,29374560,33652203,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-05-20 16:39:15,2100-05-20 20:23:49
+49,10039831,26924951,39142259,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-12-31 19:36:43,
+50,10039997,24294180,36893762,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-09-15 18:03:58,2100-09-16 22:11:05
+51,10016742,29281842,37057036,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-07-22 22:45:00,2100-07-27 20:34:44
+52,10025612,23403708,32587226,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-10-01 13:23:24,2100-10-06 18:54:33
+53,10031757,28477280,33244906,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-10-24 17:29:21,2100-10-26 22:16:51
+54,10038933,25129047,32166508,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-09-22 13:19:00,2100-09-27 21:50:29
+55,10014354,22741225,37200209,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-10-20 01:08:00,2100-10-20 21:20:50
+56,10022880,27708593,39623478,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-04-03 05:49:26,2100-04-03 22:47:09
+57,10027602,28166872,32391858,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-11-23 12:25:00,2100-12-06 18:37:10
+58,10031757,28477280,30458995,surgical intensive care unit (sicu),surgical intensive care unit (sicu),2100-10-21 22:44:57,2100-10-23 17:08:34
+59,10019172,24997044,32283063,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-11-20 09:38:22,2100-11-23 20:34:51
+60,10035185,22580999,39084876,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-05-18 14:27:34,2100-05-19 16:28:21
+61,10013049,22675517,35679826,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-06-23 09:32:58,2100-06-24 13:47:44
+62,10022017,22342963,39497668,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-10-02 10:05:24,2100-10-06 21:27:28
+63,10009049,22995465,35636875,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-06-13 09:18:00,2100-06-14 14:31:12
+64,10004422,21255400,32155744,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-01-19 09:44:50,2100-01-25 18:18:46
+65,10007058,22954658,32506122,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-11-23 20:22:00,2100-11-25 20:55:04
+66,10006580,24159665,38329661,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-08-19 16:23:10,2100-08-20 13:56:56
+67,10005909,20199380,36496303,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-11-09 23:09:03,2100-11-13 15:24:29
+68,10011398,27505812,37648963,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-12-26 09:54:58,2100-12-27 10:53:06
+69,10018423,29366372,30665396,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-05-21 12:54:06,2100-05-22 18:40:10
+70,10009035,28324362,38507547,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-05-12 10:38:12,2100-05-13 15:06:17
+71,10023771,20044587,33177122,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-08-28 09:32:41,2100-08-30 16:27:53
+72,10022281,29642388,30585761,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-06-23 04:12:54,2100-06-24 14:55:55
+73,10012552,27089790,33383124,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-04-04 14:37:26,2100-04-07 18:25:54
+74,10019385,20297618,39268883,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-03-12 08:34:06,2100-03-13 16:05:14
+75,10009628,25926192,35258379,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-10-02 09:54:49,2100-10-04 16:39:06
+76,10005817,20626031,32604416,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-12-23 09:29:01,2100-12-25 18:06:07
+77,10021118,24490144,36558922,cardiac vascular intensive care unit (cvicu),cardiac vascular intensive care unit (cvicu),2100-12-04 10:04:04,2100-12-05 21:45:42
+78,10015272,27993466,37267577,cardiac vascular intensive care unit (cvicu),medical/surgical intensive care unit (micu/sicu),2100-06-21 18:37:22,2100-06-23 20:25:41
+79,10004733,27411876,39635619,medical/surgical intensive care unit (micu/sicu),medical/surgical intensive care unit (micu/sicu),2100-12-22 11:28:24,2100-12-30 20:03:01
+80,10007795,28477357,31921355,medical/surgical intensive care unit (micu/sicu),medical/surgical intensive care unit (micu/sicu),2100-05-01 18:01:13,2100-05-02 19:13:58
+81,10020640,27984218,30849778,medical/surgical intensive care unit (micu/sicu),medical/surgical intensive care unit (micu/sicu),2100-02-26 01:38:00,2100-02-28 15:00:57
+82,10020740,23831430,35044342,medical/surgical intensive care unit (micu/sicu),medical/surgical intensive care unit (micu/sicu),2100-03-31 04:41:33,2100-04-04 20:49:33
+83,10023239,29295881,33846653,medical/surgical intensive care unit (micu/sicu),medical/surgical intensive care unit (micu/sicu),2100-06-28 19:09:00,2100-07-01 14:57:32
+84,10001725,25563031,31205490,medical/surgical intensive care unit (micu/sicu),medical/surgical intensive care unit (micu/sicu),2100-04-13 15:52:22,2100-04-14 23:59:56
+85,10020786,23488445,33683112,medical/surgical intensive care unit (micu/sicu),medical/surgical intensive care unit (micu/sicu),2100-07-01 12:46:30,2100-07-02 22:58:09
+86,10020740,23831430,35026312,medical/surgical intensive care unit (micu/sicu),medical/surgical intensive care unit (micu/sicu),2100-03-23 15:34:56,2100-03-31 02:17:47
+87,10032725,20611640,30101877,medical/surgical intensive care unit (micu/sicu),medical/surgical intensive care unit (micu/sicu),2100-04-01 06:42:00,2100-04-04 15:05:33
