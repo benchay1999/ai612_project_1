@@ -1,4 +1,4 @@
-# ai612_project_1
+# AI612 Project 1: Single-turn Text-to-SQL with Abstention
 
 Check Project 1 Specs for more details.
 
