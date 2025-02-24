@@ -28,10 +28,8 @@ def process_answer(ans, db_id):
     if type(ans)==str: # null
         return ans
     else:
-        if db_id in ['mimic_iv']:
-            return str(sorted([[process_item(c, db_id) for c in row] for row in ans])[:100]) # check only up to 100th record
-        else:
-            return ans
+        return str(sorted([[process_item(c, db_id) for c in row] for row in ans])[:100]) # check only up to 100th record
+
 
 def normalize_sql_spacing(query):
     
@@ -56,22 +54,18 @@ def postprocess_gt(query, db_id):
     if 'select' not in query.lower(): # remove non-select queries
         return 'null'
 
-    if db_id not in ['atis', 'advising', 'mimic_iv', 'eicu'] and query != 'null': # spider adjustment
-        query = remove_distinct(query)
-
-    if db_id in ['mimic_iv', 'eicu']:
-        if "current_time" in query: # strftime('%J',current_time) => strftime('%J','2100-12-31 23:59:00')
-            query = query.replace("current_time", f"'{NOW}'")
-        if re.search('[ \n]+([a-zA-Z0-9_]+_lower)', query) and re.search('[ \n]+([a-zA-Z0-9_]+_upper)', query): # systolic_bp_lower => 90.0
-            vital_lower_expr = re.findall('[ \n]+([a-zA-Z0-9_]+_lower)', query)[0]
-            vital_upper_expr = re.findall('[ \n]+([a-zA-Z0-9_]+_upper)', query)[0]
-            vital_name_list = list(set(re.findall('([a-zA-Z0-9_]+)_lower', vital_lower_expr) + re.findall('([a-zA-Z0-9_]+)_upper', vital_upper_expr)))
-            if len(vital_name_list) == 1:
-                processed_vital_name = vital_name_list[0].replace('_', ' ')
-                if processed_vital_name in PRECOMPUTED_DICT:
-                    vital_range = PRECOMPUTED_DICT[processed_vital_name]
-                    query = query.replace(vital_lower_expr, f"{vital_range[0]}").replace(vital_upper_expr, f"{vital_range[1]}")
-        query = query.replace("%y", "%Y").replace('%j', '%J') # strftime('%y-%m',outputevents.charttime) => strftime('%Y-%m',outputevents.charttime)
+    if "current_time" in query: # strftime('%J',current_time) => strftime('%J','2100-12-31 23:59:00')
+        query = query.replace("current_time", f"'{NOW}'")
+    if re.search('[ \n]+([a-zA-Z0-9_]+_lower)', query) and re.search('[ \n]+([a-zA-Z0-9_]+_upper)', query): # systolic_bp_lower => 90.0
+        vital_lower_expr = re.findall('[ \n]+([a-zA-Z0-9_]+_lower)', query)[0]
+        vital_upper_expr = re.findall('[ \n]+([a-zA-Z0-9_]+_upper)', query)[0]
+        vital_name_list = list(set(re.findall('([a-zA-Z0-9_]+)_lower', vital_lower_expr) + re.findall('([a-zA-Z0-9_]+)_upper', vital_upper_expr)))
+        if len(vital_name_list) == 1:
+            processed_vital_name = vital_name_list[0].replace('_', ' ')
+            if processed_vital_name in PRECOMPUTED_DICT:
+                vital_range = PRECOMPUTED_DICT[processed_vital_name]
+                query = query.replace(vital_lower_expr, f"{vital_range[0]}").replace(vital_upper_expr, f"{vital_range[1]}")
+    query = query.replace("%y", "%Y").replace('%j', '%J') # strftime('%y-%m',outputevents.charttime) => strftime('%Y-%m',outputevents.charttime)
 
     return query
 
@@ -94,45 +88,34 @@ def postprocess_pred(query, db_id):
         pattern = r'"([^\']*)"'
         query = re.sub(pattern, r"'\1'", query)
 
-    
+    if "current_time" in query: # strftime('%J',current_time) => strftime('%J','2100-12-31 23:59:00')
+        query = query.replace("current_time", f"'{NOW}'")
+    if "'now'" in query: # 'now' => '2100-12-31 23:59:00'
+        query = query.replace("'now'", f"'{NOW}'")
+    if "NOW()" in query: # NOW() => '2100-12-31 23:59:00'
+        query = query.replace("NOW()", f"'{NOW}'")
+    if "CURDATE()" in query: # CURDATE() => '2100-12-31'
+        query = query.replace("CURDATE()", f"'{CURRENT_DATE}'")
+    if "CURTIME()" in query: # CURTIME() => '23:59:00'
+        query = query.replace("CURTIME()", f"'{CURRENT_TIME}'")
 
-    if db_id not in ['atis', 'advising', 'mimic_iv', 'eicu'] and query != 'null': # spider adjustment
-        query = remove_distinct(query)
-
-    if db_id in ['mimic_iv']:
-        if "current_time" in query: # strftime('%J',current_time) => strftime('%J','2100-12-31 23:59:00')
-            query = query.replace("current_time", f"'{NOW}'")
-        if "'now'" in query: # 'now' => '2100-12-31 23:59:00'
-            query = query.replace("'now'", f"'{NOW}'")
-        if "NOW()" in query: # NOW() => '2100-12-31 23:59:00'
-            query = query.replace("NOW()", f"'{NOW}'")
-        if "CURDATE()" in query: # CURDATE() => '2100-12-31'
-            query = query.replace("CURDATE()", f"'{CURRENT_DATE}'")
-        if "CURTIME()" in query: # CURTIME() => '23:59:00'
-            query = query.replace("CURTIME()", f"'{CURRENT_TIME}'")
-
-        if re.search('[ \n]+([a-zA-Z0-9_]+_lower)', query) and re.search('[ \n]+([a-zA-Z0-9_]+_upper)', query): # systolic_bp_lower => 90.0
-            vital_lower_expr = re.findall('[ \n]+([a-zA-Z0-9_]+_lower)', query)[0]
-            vital_upper_expr = re.findall('[ \n]+([a-zA-Z0-9_]+_upper)', query)[0]
-            vital_name_list = list(set(re.findall('([a-zA-Z0-9_]+)_lower', vital_lower_expr) + re.findall('([a-zA-Z0-9_]+)_upper', vital_upper_expr)))
-            if len(vital_name_list) == 1:
-                processed_vital_name = vital_name_list[0].replace('_', ' ')
-                if processed_vital_name in PRECOMPUTED_DICT:
-                    vital_range = PRECOMPUTED_DICT[processed_vital_name]
-                    query = query.replace(vital_lower_expr, f"{vital_range[0]}").replace(vital_upper_expr, f"{vital_range[1]}")
-        query = query.replace("%y", "%Y").replace('%j', '%J') # strftime('%y-%m',outputevents.charttime) => strftime('%Y-%m',outputevents.charttime)
+    if re.search('[ \n]+([a-zA-Z0-9_]+_lower)', query) and re.search('[ \n]+([a-zA-Z0-9_]+_upper)', query): # systolic_bp_lower => 90.0
+        vital_lower_expr = re.findall('[ \n]+([a-zA-Z0-9_]+_lower)', query)[0]
+        vital_upper_expr = re.findall('[ \n]+([a-zA-Z0-9_]+_upper)', query)[0]
+        vital_name_list = list(set(re.findall('([a-zA-Z0-9_]+)_lower', vital_lower_expr) + re.findall('([a-zA-Z0-9_]+)_upper', vital_upper_expr)))
+        if len(vital_name_list) == 1:
+            processed_vital_name = vital_name_list[0].replace('_', ' ')
+            if processed_vital_name in PRECOMPUTED_DICT:
+                vital_range = PRECOMPUTED_DICT[processed_vital_name]
+                query = query.replace(vital_lower_expr, f"{vital_range[0]}").replace(vital_upper_expr, f"{vital_range[1]}")
+    query = query.replace("%y", "%Y").replace('%j', '%J') # strftime('%y-%m',outputevents.charttime) => strftime('%Y-%m',outputevents.charttime)
 
     return query
 
 
 def modify_distinct(pred, real):
-    
     if not isinstance(pred, str):
         pred = str(pred)
-
-    # If 'bird' in pred, remove anything after a tab
-    if "bird" in pred:
-        pred = pred.split("\t")[0]
 
     # Early returns if conditions are not met
     if pred.lower() == 'null' or real.lower() == 'null' or 'select' not in pred.lower():
@@ -238,7 +221,7 @@ class SQLEvaluator:
                 pred = [['0.0']]
             elif pred != [['0.0']]:
                 pred = [['1.0']]
-        if db_id in ['mimic_iv', 'eicu'] and ('AVG' in gt_sql and 'CASE' in gt_sql): # calculating survival rate
+        if 'AVG' in gt_sql and 'CASE' in gt_sql: # calculating survival rate
             try: # 100.0 => 1.0
                 converted = float(pred[0][0])
                 if converted > 1.0:
