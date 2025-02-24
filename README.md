@@ -13,7 +13,7 @@ Colab version of the baselines are also available:
 
 
 ## Dependencies
-The codes are tested with Colab and in local environment (Python 3.11) with the dependecies listed in `requirements.txt`.
+The codes were tested in Colab and in local environment (Python 3.11) with the dependecies listed in `requirements.txt`.
 
 ### Colab
 Install func_timeout using `pip install func-timeout`
