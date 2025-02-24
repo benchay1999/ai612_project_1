@@ -70,17 +70,17 @@ class Scorer:
             "final_score": round(final_score, 3)
         }
         print("="*100)
-        print(f"Coverage for answerable questions: {scores_dict['cov_ans*100']}% || {evaluation_dict['cov_ans'][1]}/{evaluation_dict['cov_ans'][0]}")
-        print(f"Risk for answerable questions: {scores_dict['risk_ans*100']}% || {evaluation_dict['risk_ans'][1]}/{evaluation_dict['risk_ans'][0]}")
-        print(f"Risk for unanswerable questions: {scores_dict['risk_notans*100']}% || {evaluation_dict['risk_notans'][1]}/{evaluation_dict['risk_notans'][0]}")
-        print(f"Final score: {scores_dict['final_score']}%")
+        print(f"Coverage for answerable questions (in %): {scores_dict['cov_ans*100']} || {evaluation_dict['cov_ans'][1]}/{evaluation_dict['cov_ans'][0]}")
+        print(f"Risk for answerable questions (in %): {scores_dict['risk_ans*100']} || {evaluation_dict['risk_ans'][1]}/{evaluation_dict['risk_ans'][0]}")
+        print(f"Risk for unanswerable questions (in %): {scores_dict['risk_notans*100']} || {evaluation_dict['risk_notans'][1]}/{evaluation_dict['risk_notans'][0]}")
+        print(f"Final score: {scores_dict['final_score']}")
         print("="*100)
         # save the above information to a text file
         with open(os.path.join(self.score_dir, 'scores.txt'), 'w') as score_file:
-            score_file.write(f"Coverage for answerable questions: {scores_dict['cov_ans*100']}% || {evaluation_dict['cov_ans'][1]}/{evaluation_dict['cov_ans'][0]}\n")
-            score_file.write(f"Risk for answerable questions: {scores_dict['risk_ans*100']}% || {evaluation_dict['risk_ans'][1]}/{evaluation_dict['risk_ans'][0]}\n")
-            score_file.write(f"Risk for unanswerable questions: {scores_dict['risk_notans*100']}% || {evaluation_dict['risk_notans'][1]}/{evaluation_dict['risk_notans'][0]}\n")
-            score_file.write(f"Final score: {scores_dict['final_score']}%\n")
+            score_file.write(f"Coverage for answerable questions (in %): {scores_dict['cov_ans*100']} || {evaluation_dict['cov_ans'][1]}/{evaluation_dict['cov_ans'][0]}\n")
+            score_file.write(f"Risk for answerable questions (in %): {scores_dict['risk_ans*100']} || {evaluation_dict['risk_ans'][1]}/{evaluation_dict['risk_ans'][0]}\n")
+            score_file.write(f"Risk for unanswerable questions (in %): {scores_dict['risk_notans*100']} || {evaluation_dict['risk_notans'][1]}/{evaluation_dict['risk_notans'][0]}\n")
+            score_file.write(f"Final score: {scores_dict['final_score']}\n")
     
         with open(os.path.join(self.score_dir, 'scores.json'), 'w') as score_file:
             score_file.write(json.dumps(scores_dict))
