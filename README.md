@@ -8,7 +8,7 @@ Check out the jupyter notebook files in the [`example_baselines/`](example_basel
 Especially, the [`gpt_4o_mini.ipynb`](example_baselines/gpt_4o_mini.ipynb) would be a good starting point to your implementation.
 
 Colab version of the baselines are also available:
-- [`dummy_baseline.ipynb`](https://colab.research.google.com/drive/1dkgNR3Qi5ZrtzX_QJbQNhXLpyKHxgq-h?usp=sharing)
+- [`dummy.ipynb`](https://colab.research.google.com/drive/1dkgNR3Qi5ZrtzX_QJbQNhXLpyKHxgq-h?usp=sharing)
 - [`gpt_4o_mini.ipynb`](https://colab.research.google.com/drive/1IQIOHrl-4sgorbtFZFVP2NnUP_7XdjmZ?usp=sharing)
 
 
