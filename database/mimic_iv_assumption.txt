@@ -1,7 +1,7 @@
 - Use SQLite for SQL query generation.
 - Use DENSE_RANK() when asked for ranking results, but retrieve only the relevant items, excluding their counts or ranks. When the question does not explicitly mention ranking, don't use DENSE_RANK().
 - For the top N results, return only the relevant items, excluding their counts.
-- Use DISTINCT in queries asking about the cost of events, drug routes, or counting patients or hospital/ICU visits.
+- Use DISTINCT in queries related to the cost of events, drug routes, or when counting or listing patients or hospital/ICU visits.
 - When calculating the total cost, sum the patient’s diagnoses, procedures, lab events, and prescription costs within a single hospital admission only.
 - Use DISTINCT to retrieve the cost of a single event (diagnosis, procedure, lab event, or prescription).
 - For cost-related questions, use cost.event_type to specify the event type ('procedures_icd', 'labevents', 'prescriptions', 'diagnoses_icd') when retrieving costs for procedures, lab events, prescriptions, or diagnoses, respectively.
