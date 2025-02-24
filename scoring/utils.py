@@ -215,15 +215,24 @@ class SQLEvaluator:
             return []
 
     def check_answer(self, real, pred, gt_sql, db_id):
-        
-
         if str(real).startswith('[Error]') or str(pred).startswith('[Error]'):
             return False
+        if pred == "[['true']]":
+            if real == "[['1.0']]":
+                return True
+            else:
+                return False
+        if pred == "[['false']]":
+            if real == "[['0.0']]":
+                return True
+            else:
+                return False
         if str(real) != 'null' and isinstance(real, str):
             real = eval(real)
         if str(pred) != 'null' and isinstance(pred, str):
             pred = eval(pred)
-
+        
+        
         is_count = 'count' in gt_sql.lower() # count( * )
         if is_count and pred=='[]':
             pred = [['0.0']]
