@@ -2,6 +2,9 @@
 
 Check Project 1 Specs for more details.
 
+## Database
+We use the [MIMIC-IV database demo](https://physionet.org/content/mimic-iv-demo/2.2/), which anyone can access the files as long as they conform to the terms of the [Open Data Commons Open Database License v1.0](https://physionet.org/content/mimic-iv-demo/view-license/2.2/).
+
 ## Tutorials
 Check out the jupyter notebook files in the [`example_baselines/`](example_baselines/).
 
