@@ -1,0 +1,4 @@
+Coverage for answerable questions: 100.0% || 20/20
+Risk for answerable questions: 50.0% || 10/20
+Risk for unanswerable questions: None% || 0/0
+Final score: 75.0%
