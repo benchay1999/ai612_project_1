@@ -16,7 +16,6 @@ PRECOMPUTED_DICT = {
     'mean bp': (60.0, 110.0)
 }
 TIME_PATTERN = r"(DATE_SUB|DATE_ADD)\((\w+\(\)|'[^']+')[, ]+ INTERVAL (\d+) (MONTH|YEAR|DAY)\)"
-POSTPROCESS_VAL_DICT = {'advising': {'Organogenesis: Stem Cells to Regenerative Biology': 'Organogenesis:  Stem Cells to Regenerative Biology'}}
 
 def process_item(item, db_id):
     try:
@@ -95,11 +94,7 @@ def postprocess_pred(query, db_id):
         pattern = r'"([^\']*)"'
         query = re.sub(pattern, r"'\1'", query)
 
-    # query = normalize_sql_spacing(query)
-
-    if db_id in POSTPROCESS_VAL_DICT:
-        for before, after in POSTPROCESS_VAL_DICT[db_id].items():
-            query = query.replace(before, after)
+    
 
     if db_id not in ['atis', 'advising', 'mimic_iv', 'eicu'] and query != 'null': # spider adjustment
         query = remove_distinct(query)
