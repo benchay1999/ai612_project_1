@@ -22,8 +22,8 @@
       "question": "During their first hospital visit, what was the first drug patient 10020944 was prescribed via the iv route?"
     },
     {
-      "id": "64402ff0fab0f41d6157a79d",
-      "question": "When was patient 10016150 last admitted to the hospital in 2100?"
+      "id": "82fed921fe732e9851109fa0",
+      "question": "When was patient 10016150 last admitted to the hospital?"
     },
     {
       "id": "b1f43697c74666c4701854b3",
@@ -78,8 +78,8 @@
       "question": "What microbiology tests did patient 10008454 have last in 12/this year?"
     },
     {
-      "id": "f184df103c661869f651b4dd",
-      "question": "How was patient 10006053 first admitted to the hospital since 2100 in terms of admission type?"
+      "id": "60f8d59c27fe673230ac2a83",
+      "question": "How was patient 10006053 first admitted to the hospital in terms of admission type?"
     }
   ]
 }

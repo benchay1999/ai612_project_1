@@ -6,9 +6,7 @@ noshare/
 # C extensions
 *.so
 sample_submission_chatgpt_api_key.json
-results/prediction.json
-results/scores.json
-results/scores.txt
+results/
 # Distribution / packaging
 .Python
 build/
