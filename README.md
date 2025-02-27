@@ -4,7 +4,7 @@ Your task is to develop a single-turn text-to-SQL model for an EHR database, spe
 
 The scope of the input questions that a user can ask includes [diverse topics relevant to clinical settings](https://github.com/glee4810/EHRSQL) (e.g., patient demographics, vital signs, and disease survival rates), as well as questions that are not answerable. Questions those are not answerable include, but not limited to: (1) questions that are not answerable given the database schema (e.g., asking about today's weather) or SQL functionalities (e.g.,  drawing a plot); or (2) ambiguous questions that require further clarifications through additional interactions between the user and the model (e.g., “How many patients were in severe conditions last year?”). Note that every question that is not answerable does not have a corresponding SQL query, and the model should abstain from generating such.
 
-Check Project 1 Specs for more details.
+Check [Project 1 Specs](https://docs.google.com/document/d/1CghIWzaSvuqgQVzCVLAUOOPiBED-zXogUdm0Bzvk-Cs/edit?usp=sharing) for more details.
 
 ## Database
 We use the [MIMIC-IV database demo](https://physionet.org/content/mimic-iv-demo/2.2/), which anyone can access the files as long as they conform to the terms of the [Open Data Commons Open Database License v1.0](https://physionet.org/content/mimic-iv-demo/view-license/2.2/).
