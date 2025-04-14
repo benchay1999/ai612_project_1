@@ -1,5 +1,8 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+results/
+submissions/
+scoring/_scorer.py
 *.py[cod]
 *$py.class
 noshare/

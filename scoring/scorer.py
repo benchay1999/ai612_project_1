@@ -23,7 +23,7 @@ class Scorer:
             "risk_notans": [0, 0]
         }
         data = self.data["data"]
-        for instance in tqdm(data[:40]):
+        for instance in tqdm(data):
             instance_id = instance["id"]
             question = instance["question"]
             pred_sql = self.predictions[instance_id]
@@ -85,5 +85,3 @@ class Scorer:
         with open(os.path.join(self.score_dir, 'scores.json'), 'w') as score_file:
             score_file.write(json.dumps(scores_dict))
         return scores_dict
-
-
